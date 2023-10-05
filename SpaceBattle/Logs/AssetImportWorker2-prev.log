@@ -1,0 +1,2296 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/derie/Documents/Unity Projects/PortfolioProjects/SpaceBattle
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49865
+Successfully changed project path to: C:/Users/derie/Documents/Unity Projects/PortfolioProjects/SpaceBattle
+C:/Users/derie/Documents/Unity Projects/PortfolioProjects/SpaceBattle
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10636] Host "[IP] 192.168.1.224 [Port] 0 [Flags] 2 [Guid] 1025396066 [EditorId] 1025396066 [Version] 1048832 [Id] WindowsEditor(7,Predator) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10636] Host "[IP] 192.168.1.224 [Port] 0 [Flags] 2 [Guid] 1025396066 [EditorId] 1025396066 [Version] 1048832 [Id] WindowsEditor(7,Predator) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/derie/Documents/Unity Projects/PortfolioProjects/SpaceBattle/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008332 seconds.
+- Loaded All Assemblies, in  0.283 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 247 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.500 seconds
+Domain Reload Profiling: 782ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (71ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (500ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (350ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.544 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.385 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (204ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (385ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (266ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3534.
+Memory consumption went from 121.4 MB to 121.4 MB.
+Total: 3.275100 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.108100 ms MarkObjects: 2.788200 ms  DeleteObjects: 0.153700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.567 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.623 seconds
+Domain Reload Profiling: 1188ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (185ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3539.
+Memory consumption went from 119.8 MB to 119.8 MB.
+Total: 2.942000 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.103700 ms MarkObjects: 2.560200 ms  DeleteObjects: 0.049900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15766.303265 seconds.
+  path: Assets/SpaceshooterParallax/Demoscenes/01.unity
+  artifactKey: Guid(1521b22f4d822554db59d03937a888fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceshooterParallax/Demoscenes/01.unity using Guid(1521b22f4d822554db59d03937a888fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9097d5283beb5775debb871a2238a14') in 0.003422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.532 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1118ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (204ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (239ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3542.
+Memory consumption went from 119.5 MB to 119.5 MB.
+Total: 3.249700 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.748100 ms  DeleteObjects: 0.062400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.546 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 1147ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (204ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3545.
+Memory consumption went from 119.8 MB to 119.8 MB.
+Total: 3.288400 ms (FindLiveObjects: 0.265700 ms CreateObjectMapping: 0.100900 ms MarkObjects: 2.843700 ms  DeleteObjects: 0.076600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 270.959176 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c540b3026ff277d7b5355954b8a0c4ef') in 0.003109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.626698 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/ExampleScene+Readme/ExampleScene.unity
+  artifactKey: Guid(d51b98e64ff2a394891e043eda332d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSpaceshipsFreeTrial/ExampleScene+Readme/ExampleScene.unity using Guid(d51b98e64ff2a394891e043eda332d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabdccf159d950d0eca51877feacd313') in 0.000584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 123.509500 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941efc964b5d02bb84da2536d8bd3eaf') in 0.000575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 247.479213 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(4b73ee23fa8e8d84d8b2c408634b0ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(4b73ee23fa8e8d84d8b2c408634b0ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed0af5c70c9eb80ec15f0fc7327fdcd') in 0.001132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.566332 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(5765ad278e3966c41ba050cc91b27c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(5765ad278e3966c41ba050cc91b27c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8de95aee91cc4783d5931fd35f960f') in 0.000780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.730 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.758 seconds
+Domain Reload Profiling: 1488ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (505ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (311ms)
+				TypeCache.ScanAssembly (298ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3549.
+Memory consumption went from 119.6 MB to 119.5 MB.
+Total: 2.719000 ms (FindLiveObjects: 0.243400 ms CreateObjectMapping: 0.087200 ms MarkObjects: 2.334400 ms  DeleteObjects: 0.052600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 172.608990 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/Readme.txt
+  artifactKey: Guid(81d91b96c20ce484e8e4c69388c64dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/Readme.txt using Guid(81d91b96c20ce484e8e4c69388c64dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f1d936a19c6a0ecbc523e0170b2dbce') in 0.076977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterTorpedo.prefab
+  artifactKey: Guid(1e16ea26925190d4bb4582735a69a3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterTorpedo.prefab using Guid(1e16ea26925190d4bb4582735a69a3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '269ba1ef9461ba98fdf1888f321d0e24') in 0.064478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Large/Skybox_SBS Sci-Fi & Fantasy 2 Large.mat
+  artifactKey: Guid(2709a5b81a741724fb62baaa1f8115eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Large/Skybox_SBS Sci-Fi & Fantasy 2 Large.mat using Guid(2709a5b81a741724fb62baaa1f8115eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8bde4f9940cd84dfc30935cb4676fdd') in 1.151453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGrey.png
+  artifactKey: Guid(0d8a1b8cd7445b445bff5a661529f046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGrey.png using Guid(0d8a1b8cd7445b445bff5a661529f046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6eaf6025121bd54e06f9b8aa573d74d3') in 0.055533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewBlack2.png
+  artifactKey: Guid(893b76d9a1d96ac4cbce9c7a9cdd51f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewBlack2.png using Guid(893b76d9a1d96ac4cbce9c7a9cdd51f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3c5f47b5d8cfd1db588a65d47b39983') in 0.036922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SpaceshooterParallax/Demoscenes/04.unity
+  artifactKey: Guid(5fb2ef8c356f62e4f884e3210e72331a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Demoscenes/04.unity using Guid(5fb2ef8c356f62e4f884e3210e72331a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '648df7d9e230483931975b97bd381ff3') in 0.004098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGreen.png
+  artifactKey: Guid(26a2179056f52e84197710b10f17ea78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGreen.png using Guid(26a2179056f52e84197710b10f17ea78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ff709548ae51d9d1895ea75b8110b73') in 0.028990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialTopView/2DSpaceshipsFreeTrialAtlasTopViewBlue.png
+  artifactKey: Guid(c4d8ed7c5adcd0e489c81b34c69fa753) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialTopView/2DSpaceshipsFreeTrialAtlasTopViewBlue.png using Guid(c4d8ed7c5adcd0e489c81b34c69fa753) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5eddb444aa8512eacb60f71eeab5709') in 0.031361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Medium/Skybox_Sci-Fi & Fantasy 1 Medium.mat
+  artifactKey: Guid(93a47ca1fef0e4f4280ae158050e5883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Medium/Skybox_Sci-Fi & Fantasy 1 Medium.mat using Guid(93a47ca1fef0e4f4280ae158050e5883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6001b8f4df83f207009f868329d6fe7d') in 0.155229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/08/Background (1).prefab
+  artifactKey: Guid(b0da19ed477492f41ad96d57532ccad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/08/Background (1).prefab using Guid(b0da19ed477492f41ad96d57532ccad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f173262924342b4880031f5a46dc453') in 0.013938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/05/Background (1).prefab
+  artifactKey: Guid(15a0ccb0471362440b87eeb80cdbb7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/05/Background (1).prefab using Guid(15a0ccb0471362440b87eeb80cdbb7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acad3774b39e6042bcbf5fa86bc1ea91') in 0.009418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopView/2DScifiFrigateCorsairTopViewMasterPrefab.prefab
+  artifactKey: Guid(fedd70b28e1d0bc44b3cb74a02d982d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopView/2DScifiFrigateCorsairTopViewMasterPrefab.prefab using Guid(fedd70b28e1d0bc44b3cb74a02d982d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '669c9c2319b7262cab3d012b63b0fc68') in 0.042242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DScifiFighterWeapons/ScifiFighterWeaponsAtlasPSDSourcefile.rar
+  artifactKey: Guid(e371f2eaed57c784cb05c207cd306bed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DScifiFighterWeapons/ScifiFighterWeaponsAtlasPSDSourcefile.rar using Guid(e371f2eaed57c784cb05c207cd306bed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03a8445a75b6fc0f4e583cfb9f5eb41d') in 0.004445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMinigun.prefab
+  artifactKey: Guid(82d887c3b90616348b27fdfbb59794b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMinigun.prefab using Guid(82d887c3b90616348b27fdfbb59794b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f7dd5d9e1476673b359c96d33a0ee11') in 0.010054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMissileLaucher.prefab
+  artifactKey: Guid(d41e42d52e57ffd4f965fd8242f87472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMissileLaucher.prefab using Guid(d41e42d52e57ffd4f965fd8242f87472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e36bd8301f783ab2f84bf3f73dfd68e9') in 0.011449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/04/Background (1).prefab
+  artifactKey: Guid(732fe4bbb1ad42e4b80fb0de920cc2a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/04/Background (1).prefab using Guid(732fe4bbb1ad42e4b80fb0de920cc2a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f3b5bdf03ab74a98acc0e265f33d750') in 0.010303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideViewScaleInRelation/2DScifiDestroyerPhoenixSideViewMasterPrefab.prefab
+  artifactKey: Guid(fcde71776f863e54ab79dd59ea09fdb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideViewScaleInRelation/2DScifiDestroyerPhoenixSideViewMasterPrefab.prefab using Guid(fcde71776f863e54ab79dd59ea09fdb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '338c0fefeb95af587b35ba1b312831a0') in 0.027473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMissile.prefab
+  artifactKey: Guid(556f2eb4bc9000c42a11abc910131c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DScifiFighterWeapons/2DFighterMissile.prefab using Guid(556f2eb4bc9000c42a11abc910131c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1097e7ddee1eb22da6d3319c79f5c875') in 0.010385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/03/Planets.prefab
+  artifactKey: Guid(670e94458b8c0ba4485fe0a884c8b5bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/03/Planets.prefab using Guid(670e94458b8c0ba4485fe0a884c8b5bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83fd100ec0b0397db68a199f23676f14') in 0.010122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SpaceshooterParallax/Materials/Asteroids.mat
+  artifactKey: Guid(7bce6ac6777b64a49941cef9c9842eff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Materials/Asteroids.mat using Guid(7bce6ac6777b64a49941cef9c9842eff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '819bd3c319ea954de561e22113194039') in 0.016010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DShipMissilesTorpedoes/2DShipsMissilesTorpedoesAtlas.png
+  artifactKey: Guid(da841e0ed6399bd4695ebcfa661935f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DShipMissilesTorpedoes/2DShipsMissilesTorpedoesAtlas.png using Guid(da841e0ed6399bd4695ebcfa661935f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28c5f1466240491c1e5018bed5d4a3ff') in 0.026314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/07/Stones.prefab
+  artifactKey: Guid(4040a104be6d0e143981848428d5bfc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/07/Stones.prefab using Guid(4040a104be6d0e143981848428d5bfc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3067d78b66d61ebd334bbab4987fa99f') in 0.019130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/Demo Scenes/SBS Sci-Fi & Fantasy 2.unity
+  artifactKey: Guid(70642b13437a3124c8bd489dfe766645) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/Demo Scenes/SBS Sci-Fi & Fantasy 2.unity using Guid(70642b13437a3124c8bd489dfe766645) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f96b2f5e91dfe9c76c0e2189cf4b225') in 0.005631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/01/Background.prefab
+  artifactKey: Guid(cefa5d27a3481c641943c3739700681e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/01/Background.prefab using Guid(cefa5d27a3481c641943c3739700681e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9edddff81da8178e90a5dbe815c562ad') in 0.010808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SpaceshooterParallax/Demoscenes/08.unity
+  artifactKey: Guid(97c045aecef53004f94e62b2688b8a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Demoscenes/08.unity using Guid(97c045aecef53004f94e62b2688b8a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '563f55811dd8efe8889c034a1110920c') in 0.004246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/SBS Sci-Fi & Fantasy 1.asset
+  artifactKey: Guid(472082e20727e46408116b2b3b3d606d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/SBS Sci-Fi & Fantasy 1.asset using Guid(472082e20727e46408116b2b3b3d606d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e97ee55dee2fde97b0358a07108ef594') in 0.004285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SpaceshooterParallax/Demoscenes/05.unity
+  artifactKey: Guid(81da4b2a4f20311468420891967e69a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Demoscenes/05.unity using Guid(81da4b2a4f20311468420891967e69a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9d09b6f3a5303dcf6dfeeccf45ced98') in 0.005874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SpaceshooterParallax/Materials/Stars.mat
+  artifactKey: Guid(6c3495caafd7ec2458fd45532d2bb62f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Materials/Stars.mat using Guid(6c3495caafd7ec2458fd45532d2bb62f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d4ebc081462db2a85c3a13e7b4e6667') in 0.013772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001428 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGrey2.png
+  artifactKey: Guid(66509e624c6694849b0608e7b49cd946) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGrey2.png using Guid(66509e624c6694849b0608e7b49cd946) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '866e24397be694c36f81bf2a67cced01') in 0.030826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopViewScaleInRelation/2DScifiDestroyerPhoenixTopViewMasterPrefab.prefab
+  artifactKey: Guid(94daddc54f3285e44bf9b06fcd28a0ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopViewScaleInRelation/2DScifiDestroyerPhoenixTopViewMasterPrefab.prefab using Guid(94daddc54f3285e44bf9b06fcd28a0ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09240de28b181ba8dd5563c05893d727') in 0.030501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/StarField.prefab
+  artifactKey: Guid(9827fafe2dd4ef44bafff15b3d1e1482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/StarField.prefab using Guid(9827fafe2dd4ef44bafff15b3d1e1482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '628e36f3b864913050d603adad1bea8c') in 0.009936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/Background/_top.png
+  artifactKey: Guid(81b82e429b07b1241b30b3b3a5f320cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/Background/_top.png using Guid(81b82e429b07b1241b30b3b3a5f320cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '236913654310b5f239436770ef094dc7') in 0.018068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Small/Skybox_SBS Sci-Fi & Fantasy 3 Small.mat
+  artifactKey: Guid(5a99e3d03e8f21b478fc72092e13b92a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Small/Skybox_SBS Sci-Fi & Fantasy 3 Small.mat using Guid(5a99e3d03e8f21b478fc72092e13b92a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '272adbcf89057f85af833c2591e4c065') in 0.042400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Skybox_SBS Sci-Fi & Fantasy 4 Small.mat
+  artifactKey: Guid(77c8cb1df62be9747a4fb4e8be5e2f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Skybox_SBS Sci-Fi & Fantasy 4 Small.mat using Guid(77c8cb1df62be9747a4fb4e8be5e2f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '761993889c75c0c005ba38cfa3ec8102') in 0.043206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Medium/Textures/Left_Sci-Fi & Fantasy 1 Medium.png
+  artifactKey: Guid(e0a2a19e030d32147ad87980135898c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Medium/Textures/Left_Sci-Fi & Fantasy 1 Medium.png using Guid(e0a2a19e030d32147ad87980135898c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3334bfd72ff695f8770190c5d5f334bf') in 0.037405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Medium/Textures/Back_Sci-Fi & Fantasy 1 Medium.png
+  artifactKey: Guid(ed94e38ee86f34c4589b11d84a3b2a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Medium/Textures/Back_Sci-Fi & Fantasy 1 Medium.png using Guid(ed94e38ee86f34c4589b11d84a3b2a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c634028c11b88b9693a7cbac6487bad') in 0.032925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Large/Textures/Up_SBS Sci-Fi & Fantasy 2 Large.png
+  artifactKey: Guid(529405e62cc8ec140a0bfb37727b99e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Large/Textures/Up_SBS Sci-Fi & Fantasy 2 Large.png using Guid(529405e62cc8ec140a0bfb37727b99e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c503d8f970016205ad629a9622c17b3') in 0.121001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Medium/Textures/Left_SBS Sci-Fi & Fantasy 2 Medium.png
+  artifactKey: Guid(417f562f6d21c124cbb4a0970e07c00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Medium/Textures/Left_SBS Sci-Fi & Fantasy 2 Medium.png using Guid(417f562f6d21c124cbb4a0970e07c00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52e545c06323f62e2203d54875e04fb6') in 0.036500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Large/Textures/Left_Sci-Fi & Fantasy 1 Large.png
+  artifactKey: Guid(ef107b7ead35b1344bad8e69c1dd627f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Large/Textures/Left_Sci-Fi & Fantasy 1 Large.png using Guid(ef107b7ead35b1344bad8e69c1dd627f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9d6b358d440381aa2d1a2d66973a0b3') in 0.135833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Large/Textures/Back_Sci-Fi & Fantasy 1 Large.png
+  artifactKey: Guid(33803fc0fdbb1bf46b0d17188bdd6288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Large/Textures/Back_Sci-Fi & Fantasy 1 Large.png using Guid(33803fc0fdbb1bf46b0d17188bdd6288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5d6db3523a0e1ade2c023d52e7efd21') in 0.154266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Large/Textures/Left_SBS Sci-Fi & Fantasy 3 Large.png
+  artifactKey: Guid(675048b057e03bf4cae11f9cc6e284e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Large/Textures/Left_SBS Sci-Fi & Fantasy 3 Large.png using Guid(675048b057e03bf4cae11f9cc6e284e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ccbff200b288d32e0111903816e578c5') in 0.191877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Small/Textures/Down_SBS Sci-Fi & Fantasy 2 Small.png
+  artifactKey: Guid(ba39f9b166ec5694e85868f0603d68d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Small/Textures/Down_SBS Sci-Fi & Fantasy 2 Small.png using Guid(ba39f9b166ec5694e85868f0603d68d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03d5c033a56ca994969a04597e791f5b') in 0.020667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Small/Textures/Right_SBS Sci-Fi & Fantasy 2 Small.png
+  artifactKey: Guid(e99e64a7d9949a149bb00c7f69ec3a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Small/Textures/Right_SBS Sci-Fi & Fantasy 2 Small.png using Guid(e99e64a7d9949a149bb00c7f69ec3a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ba912018b7179f177cef81d267d2283') in 0.025029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Large/Textures/Front_SBS Sci-Fi & Fantasy 3 Large.png
+  artifactKey: Guid(3c071bc28fc28fc459b4bf5b310cecff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Large/Textures/Front_SBS Sci-Fi & Fantasy 3 Large.png using Guid(3c071bc28fc28fc459b4bf5b310cecff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46d49792c3aa5e10dc156cb29a70204c') in 0.104924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Large/Textures/Down_Sci-Fi & Fantasy 1 Large.png
+  artifactKey: Guid(cea53a93c59b2dc4da5841195bf2e771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Large/Textures/Down_Sci-Fi & Fantasy 1 Large.png using Guid(cea53a93c59b2dc4da5841195bf2e771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbd01783527221eb4470d256535d2edd') in 0.114808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Medium/Textures/Down_Sci-Fi & Fantasy 1 Medium.png
+  artifactKey: Guid(7038971ada52cb34297280f5f09990f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Medium/Textures/Down_Sci-Fi & Fantasy 1 Medium.png using Guid(7038971ada52cb34297280f5f09990f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07cd9c1777c1b04ce90a896c68b2056e') in 0.037600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Small/Textures/Down_SBS Sci-Fi & Fantasy 3 Small.png
+  artifactKey: Guid(dcfe495f0947b4f4f8d7d11ce18ebae9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Small/Textures/Down_SBS Sci-Fi & Fantasy 3 Small.png using Guid(dcfe495f0947b4f4f8d7d11ce18ebae9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d9337f16777c41ac91e9e48554dc1df') in 0.019925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Large/Textures/Up_Sci-Fi & Fantasy 1 Large.png
+  artifactKey: Guid(456e7399b48b8794d844a6b5855af719) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Large/Textures/Up_Sci-Fi & Fantasy 1 Large.png using Guid(456e7399b48b8794d844a6b5855af719) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fe311727cc3846d21f24a05bb93f0ff') in 0.111304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Large/Textures/Down_SBS Sci-Fi & Fantasy 2 Large.png
+  artifactKey: Guid(16b0baa833dd6ff41bfc8de4c3acba0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Large/Textures/Down_SBS Sci-Fi & Fantasy 2 Large.png using Guid(16b0baa833dd6ff41bfc8de4c3acba0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86bdcb0b49cc505b530e83f98fb901fb') in 0.081562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Small/Textures/Right_SBS Sci-Fi & Fantasy 3 Small.png
+  artifactKey: Guid(a01e6cbbe183d8343995581902175afb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Small/Textures/Right_SBS Sci-Fi & Fantasy 3 Small.png using Guid(a01e6cbbe183d8343995581902175afb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8396fe447fea19a8a40f0004b2c12cf4') in 0.015637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideView/2DScifiDestroyerPhoenixSideViewMasterPrefab.prefab
+  artifactKey: Guid(b26aed0f04fef024aa2a3a3edb5429f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideView/2DScifiDestroyerPhoenixSideViewMasterPrefab.prefab using Guid(b26aed0f04fef024aa2a3a3edb5429f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecb775d27dec2711c6aa173a77a7561c') in 0.027811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SpaceshooterParallax/Scripts/ScrollingItems.cs
+  artifactKey: Guid(14d92f10ea2279d46b23e4c0f203d8f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Scripts/ScrollingItems.cs using Guid(14d92f10ea2279d46b23e4c0f203d8f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad3b513b2eca476c3ced95272b7490ac') in 0.004692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Medium/Textures/Down_SBS Sci-Fi & Fantasy 3 Medium.png
+  artifactKey: Guid(725ad1573045c4c4e941799e293c6133) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Medium/Textures/Down_SBS Sci-Fi & Fantasy 3 Medium.png using Guid(725ad1573045c4c4e941799e293c6133) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56cee5d3d77474910cd577b3d6bbfcd0') in 0.035366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/06/Background (1).prefab
+  artifactKey: Guid(64f5cd22310fa1c44b9d45f40d5941a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/06/Background (1).prefab using Guid(64f5cd22310fa1c44b9d45f40d5941a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '113d23edb46d27b5e572caad65ed4bbe') in 0.010438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Large/Textures/Back_SBS Sci-Fi & Fantasy 4 Large.png
+  artifactKey: Guid(9d944eb31f090c44fa01d00dc35c65b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Large/Textures/Back_SBS Sci-Fi & Fantasy 4 Large.png using Guid(9d944eb31f090c44fa01d00dc35c65b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd22a5e826fbd6f16d0a89b800a7aeb89') in 0.081649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SpaceshooterParallax/Textures/bg 1/moon.png
+  artifactKey: Guid(3f96ac0b69a5ce74983e417d79948c22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/bg 1/moon.png using Guid(3f96ac0b69a5ce74983e417d79948c22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64adc1e29487e1d2bc3d21b22a33fd00') in 0.024205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/06/Planets.prefab
+  artifactKey: Guid(7705f4b43ac31b34d9b8fe9a884a3980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/06/Planets.prefab using Guid(7705f4b43ac31b34d9b8fe9a884a3980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5395ce5d5bd3c287c5daa1b33c861e86') in 0.013410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideView/2DScifiFighterExcaliburSideViewMasterPrefab.prefab
+  artifactKey: Guid(6be15387711903945975be08ef9ebbaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideView/2DScifiFighterExcaliburSideViewMasterPrefab.prefab using Guid(6be15387711903945975be08ef9ebbaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31a72930cba7f7ccae6be26edeb4d187') in 0.037031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Large/Textures/Right_SBS Sci-Fi & Fantasy 4 Large.png
+  artifactKey: Guid(6da8891a66079d640af01db08e8f3069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Large/Textures/Right_SBS Sci-Fi & Fantasy 4 Large.png using Guid(6da8891a66079d640af01db08e8f3069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9eb63483c741b54c98079aea1719842e') in 0.122997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Textures/Back_SBS Sci-Fi & Fantasy 4 Small.png
+  artifactKey: Guid(d8f545ff10fe9f7428a257a35baeb30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Textures/Back_SBS Sci-Fi & Fantasy 4 Small.png using Guid(d8f545ff10fe9f7428a257a35baeb30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3b377a65cf43ce1cebd1c0e23c4ee66') in 0.020839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Large/Textures/Right_SBS Sci-Fi & Fantasy 5 Large.png
+  artifactKey: Guid(99c0ba9a4bd5c694594aacebfee08411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Large/Textures/Right_SBS Sci-Fi & Fantasy 5 Large.png using Guid(99c0ba9a4bd5c694594aacebfee08411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a7343d247229737bb875229d6869aa2') in 0.106970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Textures/Down_SBS Sci-Fi & Fantasy 4 Medium.png
+  artifactKey: Guid(6fb5414ccb5d64842838eb4f82d158c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Textures/Down_SBS Sci-Fi & Fantasy 4 Medium.png using Guid(6fb5414ccb5d64842838eb4f82d158c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '169b1268869fdaffe66d2d4b8b64013e') in 0.038643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Textures/Up_SBS Sci-Fi & Fantasy 4 Medium.png
+  artifactKey: Guid(917cad6eb4d5fa64181b0de1d2b4b95c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Textures/Up_SBS Sci-Fi & Fantasy 4 Medium.png using Guid(917cad6eb4d5fa64181b0de1d2b4b95c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2914ea2554933568b93f330cb3a8eccb') in 0.044617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Large/Textures/Up_SBS Sci-Fi & Fantasy 4 Large.png
+  artifactKey: Guid(42dc06089e58270409796a492cdb5cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Large/Textures/Up_SBS Sci-Fi & Fantasy 4 Large.png using Guid(42dc06089e58270409796a492cdb5cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '988a1c2ef230e9e0d97a61ce91acda73') in 0.171500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Textures/Back_SBS Sci-Fi & Fantasy 4 Medium.png
+  artifactKey: Guid(fef8e5d58f09e9a43bd7caabf51a4835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Textures/Back_SBS Sci-Fi & Fantasy 4 Medium.png using Guid(fef8e5d58f09e9a43bd7caabf51a4835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc1cee6c4566203c311869d18c4c03e9') in 0.045205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Textures/Down_SBS Sci-Fi & Fantasy 4 Small.png
+  artifactKey: Guid(9d51d6fe0be93eb4d8d69aa8c8315095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Textures/Down_SBS Sci-Fi & Fantasy 4 Small.png using Guid(9d51d6fe0be93eb4d8d69aa8c8315095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae39e735737df9371d7d1481c08c0d5b') in 0.025195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Textures/Left_SBS Sci-Fi & Fantasy 4 Small.png
+  artifactKey: Guid(4b67c1374369c2d40b66639e0dd523c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Textures/Left_SBS Sci-Fi & Fantasy 4 Small.png using Guid(4b67c1374369c2d40b66639e0dd523c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a018097a035fbb565fbce3782c674afa') in 0.023033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Medium/Textures/Up_SBS Sci-Fi & Fantasy 5 Medium.png
+  artifactKey: Guid(5efa03ff7ea092a4f852446f8d4ebe95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Medium/Textures/Up_SBS Sci-Fi & Fantasy 5 Medium.png using Guid(5efa03ff7ea092a4f852446f8d4ebe95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c92486f662082edc881d9395120de4ef') in 0.039199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Large/Textures/Up_SBS Sci-Fi & Fantasy 5 Large.png
+  artifactKey: Guid(0c7dc529f8898854e8a5932033c646b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Large/Textures/Up_SBS Sci-Fi & Fantasy 5 Large.png using Guid(0c7dc529f8898854e8a5932033c646b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50bdc3a164bc4ba2c84a975d80c55845') in 0.095562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewBlue2.png
+  artifactKey: Guid(d0a34105e4889f749b0b25e03b9bca86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewBlue2.png using Guid(d0a34105e4889f749b0b25e03b9bca86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad663c333bfcde5be5aae710372583b6') in 0.031599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialTopView/2DSpaceshipsFreeTrialAtlasTopViewYellow.png
+  artifactKey: Guid(8cb507e2be1846b40ad81e95cef5a76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialTopView/2DSpaceshipsFreeTrialAtlasTopViewYellow.png using Guid(8cb507e2be1846b40ad81e95cef5a76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd04d0605e6b60c356e4d7cc5d247203') in 0.030754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SpaceshooterParallax/Textures/main/background.png
+  artifactKey: Guid(b88045e3fab72d144a449d689a1c00d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/main/background.png using Guid(b88045e3fab72d144a449d689a1c00d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a44eb831bea11ffa60600b573567a39b') in 0.017144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SpaceshooterParallax/Demoscenes/03.unity
+  artifactKey: Guid(36e5b333a0e7fba47a03784725a2dcfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Demoscenes/03.unity using Guid(36e5b333a0e7fba47a03784725a2dcfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '262cc3183e1553c26f133241684199cd') in 0.003922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Small/Textures/Up_SBS Sci-Fi & Fantasy 2 Small.png
+  artifactKey: Guid(f6086ca64d8661b47bb89a7239a125a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Small/Textures/Up_SBS Sci-Fi & Fantasy 2 Small.png using Guid(f6086ca64d8661b47bb89a7239a125a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10501914995e804827a74bf8cadeda2a') in 0.020448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialTopView/2DSpaceshipsFreeTrialAtlasTopViewBlack.png
+  artifactKey: Guid(c91ca482c2d65c04bbd61802e93740bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialTopView/2DSpaceshipsFreeTrialAtlasTopViewBlack.png using Guid(c91ca482c2d65c04bbd61802e93740bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bea71a197828772cb320d7c2468c09de') in 0.026901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Large/Textures/Left_SBS Sci-Fi & Fantasy 4 Large.png
+  artifactKey: Guid(690ee6fcec606164783e4155e1a663b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Large/Textures/Left_SBS Sci-Fi & Fantasy 4 Large.png using Guid(690ee6fcec606164783e4155e1a663b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '085c9e3967e1bb6263c6ce1ba9e80b98') in 0.110416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SpaceshooterParallax/Demoscenes/06.unity
+  artifactKey: Guid(d7cb6fdbcd8ad4e45806a304b66099d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Demoscenes/06.unity using Guid(d7cb6fdbcd8ad4e45806a304b66099d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '778e7b5571cd5acc73cac49002fd5b60') in 0.005404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGreen2.png
+  artifactKey: Guid(95813e2465cb02448b2d72249b99452b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewGreen2.png using Guid(95813e2465cb02448b2d72249b99452b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00bb1b6c504de833948100e5cdf3e68f') in 0.028749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 1/parallax png/planets.png
+  artifactKey: Guid(b7b4f59a2a5de7346b06e3bec5d0543c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 1/parallax png/planets.png using Guid(b7b4f59a2a5de7346b06e3bec5d0543c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6da377e600f9c8b76cc9d9e3536e1fa4') in 0.020991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/MissileLauncher/2DShipsMissileLauncherSideView.prefab
+  artifactKey: Guid(95fe3a1158b7ff049b85ff264f0c0e6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/MissileLauncher/2DShipsMissileLauncherSideView.prefab using Guid(95fe3a1158b7ff049b85ff264f0c0e6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01a0e585673d48941e6dd522c2125ff0') in 0.010509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Small/Textures/Front_SBS Sci-Fi & Fantasy 5 Small.png
+  artifactKey: Guid(039182c7632aff244ba444018bfea330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Small/Textures/Front_SBS Sci-Fi & Fantasy 5 Small.png using Guid(039182c7632aff244ba444018bfea330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7da4636ecd5b0c3ce279f351684e7c1') in 0.022225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Small/Textures/Up_SBS Sci-Fi & Fantasy 5 Small.png
+  artifactKey: Guid(e7243afcb4ca16741a16e90e900dc344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Small/Textures/Up_SBS Sci-Fi & Fantasy 5 Small.png using Guid(e7243afcb4ca16741a16e90e900dc344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '826589178e7844d86b63d87b4798ee86') in 0.018673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 1/parallax png/background.png
+  artifactKey: Guid(88ea4c85a74d1064c93e4c970bdf1b6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 1/parallax png/background.png using Guid(88ea4c85a74d1064c93e4c970bdf1b6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '895aebf10738b7002ff03ababbd1ae91') in 0.015520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 1/parallax png/stars.png
+  artifactKey: Guid(3063bde306216544fbd14d843e7c745e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 1/parallax png/stars.png using Guid(3063bde306216544fbd14d843e7c745e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85c7e8571c3186f79d97c32c24bb5617') in 0.017805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SpaceshooterParallax/Demoscenes/07.unity
+  artifactKey: Guid(9916efff7e16bee44ab7fa76b6a55975) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Demoscenes/07.unity using Guid(9916efff7e16bee44ab7fa76b6a55975) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc65fd244cbf9e1b41e4f4937cbbd55e') in 0.003399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipMissilesTorpedoes/2DShipsMissileMedium.prefab
+  artifactKey: Guid(3952c3fe53f74a0409f716652bd8d27d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipMissilesTorpedoes/2DShipsMissileMedium.prefab using Guid(3952c3fe53f74a0409f716652bd8d27d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f25f38230a2b5c5a94ec2f8716b51ef8') in 0.008857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Small/Textures/Left_Sci-Fi & Fantasy 1 Small.png
+  artifactKey: Guid(40e8a3762abaa3a479578fbb272782b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Small/Textures/Left_Sci-Fi & Fantasy 1 Small.png using Guid(40e8a3762abaa3a479578fbb272782b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e17f00e862bf8d6b9470cf489d075643') in 0.019350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Small/Textures/Back_Sci-Fi & Fantasy 1 Small.png
+  artifactKey: Guid(d067de6c658774b4da203031f5fd72bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 1/Small/Textures/Back_Sci-Fi & Fantasy 1 Small.png using Guid(d067de6c658774b4da203031f5fd72bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0ed39950c639bb22ae43edae24c3d7a') in 0.022318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Small/Skybox_SBS Sci-Fi & Fantasy 5 Small.mat
+  artifactKey: Guid(e92e42aa00db72b428dd8fb52226d57a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Small/Skybox_SBS Sci-Fi & Fantasy 5 Small.mat using Guid(e92e42aa00db72b428dd8fb52226d57a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8494eaec0b15c25fb56dd72b18ab69b2') in 0.036424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Medium/Textures/Front_SBS Sci-Fi & Fantasy 2 Medium.png
+  artifactKey: Guid(c4879c11f3b44c24f921b7c85cc96000) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Medium/Textures/Front_SBS Sci-Fi & Fantasy 2 Medium.png using Guid(c4879c11f3b44c24f921b7c85cc96000) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36d0c0c65f48e739571113eeec200645') in 0.060703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(5765ad278e3966c41ba050cc91b27c74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerController.cs using Guid(5765ad278e3966c41ba050cc91b27c74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02f7180c4637960fc368c4be57031f38') in 0.007824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideView/2DScifiFrigateCorsairSideViewMasterPrefab.prefab
+  artifactKey: Guid(09eef1c2dc8961249a5567081bca030d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialSideView/2DScifiFrigateCorsairSideViewMasterPrefab.prefab using Guid(09eef1c2dc8961249a5567081bca030d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '465ca2d8c4bdf5eaee9bfafe82709717') in 0.038797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Skybox_SBS Sci-Fi & Fantasy 4 Medium.mat
+  artifactKey: Guid(eabbc8cf5771b97498d8b527dd6e384d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Skybox_SBS Sci-Fi & Fantasy 4 Medium.mat using Guid(eabbc8cf5771b97498d8b527dd6e384d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df102f9ddbf53444ac86acc230b3bb16') in 0.191211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 1/png 2/stones copy 2.png
+  artifactKey: Guid(0940a005196b20d4c965579409553120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 1/png 2/stones copy 2.png using Guid(0940a005196b20d4c965579409553120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10673d02567a87ef5373466d69e65340') in 0.028651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 3/parallax png/bacground.png
+  artifactKey: Guid(0332ee6b758c7004cbc03114b25a786b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 3/parallax png/bacground.png using Guid(0332ee6b758c7004cbc03114b25a786b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70e1c57d3f0bcfde2cd48777468f71d2') in 0.016149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 2/png 2/asteroids.png
+  artifactKey: Guid(da7ec0eea1856424d80d141672719ea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 2/png 2/asteroids.png using Guid(da7ec0eea1856424d80d141672719ea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88ba21cb07bd166bbd9c90095a99dd12') in 0.019402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 2/png 2/wall.png
+  artifactKey: Guid(a9801530979e9b642b508cd2e5885bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 2/png 2/wall.png using Guid(a9801530979e9b642b508cd2e5885bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a98836cf078981e0d1911df22251b14') in 0.017158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 1/png 2/stars 4.png
+  artifactKey: Guid(4a7cf0830e015ad4fb36a95ff6a712db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 1/png 2/stars 4.png using Guid(4a7cf0830e015ad4fb36a95ff6a712db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41966adac7c153cc4d3ee2e545c6d5d2') in 0.021288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 1/png 2/stones.png
+  artifactKey: Guid(af48d8e04892f964ebe08e763427592d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 1/png 2/stones.png using Guid(af48d8e04892f964ebe08e763427592d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '349643286ab25b62d02f1b9fe5e0d8d2') in 0.020148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 2/parallax png/asteroids.png
+  artifactKey: Guid(fdc4ad60bbcfcf643aa1d7ff88b43738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 2/parallax png/asteroids.png using Guid(fdc4ad60bbcfcf643aa1d7ff88b43738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02852cd046c807d4128f7de6092beea5') in 0.020727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 2/png 2/Earth.png
+  artifactKey: Guid(ef8646e091d8d714a91d629ea3885a8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 2/png 2/Earth.png using Guid(ef8646e091d8d714a91d629ea3885a8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94d57797481e8a6a01aad8f352da55ed') in 0.021811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 1/png 2/space stars.png
+  artifactKey: Guid(c56f0c38b310a2f43a089897f25c85d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 1/png 2/space stars.png using Guid(c56f0c38b310a2f43a089897f25c85d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4576f0359ea17c6b4e61fed13ede49dc') in 0.022499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 2/parallax png/side-wall.png
+  artifactKey: Guid(9b52df8028314e9408b6c8101cf1dfab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 2/parallax png/side-wall.png using Guid(9b52df8028314e9408b6c8101cf1dfab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7e3f10a39a8747a16220ed0b672e1fe') in 0.019474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 2/parallax png/stars.png
+  artifactKey: Guid(a324c279131fb1e48ae105bc8547e339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 2/parallax png/stars.png using Guid(a324c279131fb1e48ae105bc8547e339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caa30eb296f1d3154241f686752a37c8') in 0.025062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SpaceshooterParallax/Demoscenes/02.unity
+  artifactKey: Guid(d5b71b45d4d78204491c411139d5f836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Demoscenes/02.unity using Guid(d5b71b45d4d78204491c411139d5f836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c13fcf969a5da53846caf0f2bf3f3d3c') in 0.006617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Medium/Textures/Left_SBS Sci-Fi & Fantasy 5 Medium.png
+  artifactKey: Guid(24d2f3f68091a1f4b9f03eb6b22fad97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Medium/Textures/Left_SBS Sci-Fi & Fantasy 5 Medium.png using Guid(24d2f3f68091a1f4b9f03eb6b22fad97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c53df71b1576c780a64715604c6d88e') in 0.044120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/TopView/Turrets/2DShipsTurretLargeTopView.prefab
+  artifactKey: Guid(de7b60883fc71184e90117aa6df5920b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/TopView/Turrets/2DShipsTurretLargeTopView.prefab using Guid(de7b60883fc71184e90117aa6df5920b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c47394bf471548e2e9c3e90214be1a5') in 0.010125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/02/Background (1).prefab
+  artifactKey: Guid(42d29ff47cf60854fb6d823b62a06d3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/02/Background (1).prefab using Guid(42d29ff47cf60854fb6d823b62a06d3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd468c6a7a476e426e06c10c4b1a86a9e') in 0.011020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Medium/Textures/Up_SBS Sci-Fi & Fantasy 3 Medium.png
+  artifactKey: Guid(1ba08ddad86b97e44b20e04f58346f6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Medium/Textures/Up_SBS Sci-Fi & Fantasy 3 Medium.png using Guid(1ba08ddad86b97e44b20e04f58346f6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3745e4220765cf57d3c6fbf8cffe0a7') in 0.038929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Large/Textures/Down_SBS Sci-Fi & Fantasy 3 Large.png
+  artifactKey: Guid(2eb9c298c3d4f7448aeb288898cbe2a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Large/Textures/Down_SBS Sci-Fi & Fantasy 3 Large.png using Guid(2eb9c298c3d4f7448aeb288898cbe2a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3b49cb980f3ce3e44a28298cf189dce') in 0.143329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 4/png/moon.png
+  artifactKey: Guid(710636b1e59f9db4fb1187354ef4d558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 4/png/moon.png using Guid(710636b1e59f9db4fb1187354ef4d558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72b99e0fe3596b26e62405487095fccc') in 0.026251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 4/png/asteroids.png
+  artifactKey: Guid(cca6c3b06f476d1428cd032c7c9bdb53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 4/png/asteroids.png using Guid(cca6c3b06f476d1428cd032c7c9bdb53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bdb40407091e6800494d70b76f5253d') in 0.017478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/Turrets/Left/2DShipsSmallTurretSideViewLeft.prefab
+  artifactKey: Guid(4dd1a84e05fb8944a8a98480bacaae04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/Turrets/Left/2DShipsSmallTurretSideViewLeft.prefab using Guid(4dd1a84e05fb8944a8a98480bacaae04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d9619cbe6c4ebb67b9be55828c4e653') in 0.010144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 4/parallax png/background.png
+  artifactKey: Guid(62dcaa79c54f3e34d9ac6d887f90b461) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 4/parallax png/background.png using Guid(62dcaa79c54f3e34d9ac6d887f90b461) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2a7632b28d192878b4b2c5b2fb6f2e4') in 0.019024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 4/png/stones.png
+  artifactKey: Guid(c64bd111977aa2e499269e1ed022edca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 4/png/stones.png using Guid(c64bd111977aa2e499269e1ed022edca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2646270e3cf2585ccb49f2ba19a9cce6') in 0.016828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 4/parallax png/stars.png
+  artifactKey: Guid(6f93fb3278541f0448810530e8e2ff1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 4/parallax png/stars.png using Guid(6f93fb3278541f0448810530e8e2ff1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40abe40d72b8d166086732ae52ed2312') in 0.023575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialTopView/2DSpaceshipsFreeTrialAtlasTopViewGrey.png
+  artifactKey: Guid(351168d0237ac154c8bdbd459fd3eaad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialTopView/2DSpaceshipsFreeTrialAtlasTopViewGrey.png using Guid(351168d0237ac154c8bdbd459fd3eaad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7bd437b5584dbb271743d9bf7d715bc') in 0.029944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewWhite2.png
+  artifactKey: Guid(64d530a33ddd8684a9c8058ffef3ef4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewWhite2.png using Guid(64d530a33ddd8684a9c8058ffef3ef4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5026efe839c6996e538feafabcec8384') in 0.033631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Medium/Textures/Down_SBS Sci-Fi & Fantasy 5 Medium.png
+  artifactKey: Guid(f32bc2d3c8aae54498d6d0bdc1b895e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Medium/Textures/Down_SBS Sci-Fi & Fantasy 5 Medium.png using Guid(f32bc2d3c8aae54498d6d0bdc1b895e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa87fcbeb5b46ad5db099e054e957871') in 0.052530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 1/parallax png/yellow-stones.png
+  artifactKey: Guid(f2e834a34670d2047b30040d8db5a7b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 1/parallax png/yellow-stones.png using Guid(f2e834a34670d2047b30040d8db5a7b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d9c7ea67d3288ab7156c8fd6106645d') in 0.024997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Large/Textures/Back_SBS Sci-Fi & Fantasy 5 Large.png
+  artifactKey: Guid(72918ffa57317e342b10157dc2a63120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Large/Textures/Back_SBS Sci-Fi & Fantasy 5 Large.png using Guid(72918ffa57317e342b10157dc2a63120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '400e934b23b20bd04bd70c8a1d590a2f') in 0.124638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 2/parallax png/background.png
+  artifactKey: Guid(7eb249c64e8ec3549abaa63b512e4f33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 2/parallax png/background.png using Guid(7eb249c64e8ec3549abaa63b512e4f33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c984c3d0fb3ca9eeaac930d4c4e2c426') in 0.019155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 4/parallax png/planet-1png.png
+  artifactKey: Guid(c70ac6660324421479616c29c59b2945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 4/parallax png/planet-1png.png using Guid(c70ac6660324421479616c29c59b2945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6197f4db69aa7cd5690c5c0699190095') in 0.026367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Textures/Up_SBS Sci-Fi & Fantasy 4 Small.png
+  artifactKey: Guid(87d56b3a029d3254cb23d34befcc9f05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Small/Textures/Up_SBS Sci-Fi & Fantasy 4 Small.png using Guid(87d56b3a029d3254cb23d34befcc9f05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cd4008de4418bda7ab1c848fe147f61') in 0.023565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/TopView/Radar/2DShipsRadarTopView.prefab
+  artifactKey: Guid(12eefaa6c5a1f1747aa9cd30c8a7e64c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/TopView/Radar/2DShipsRadarTopView.prefab using Guid(12eefaa6c5a1f1747aa9cd30c8a7e64c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ebfd26803a0bcff42875f3f0ab3910a') in 0.011259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Small/Textures/Back_SBS Sci-Fi & Fantasy 5 Small.png
+  artifactKey: Guid(9a99298b7dabc2f419634afc943aa76f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Small/Textures/Back_SBS Sci-Fi & Fantasy 5 Small.png using Guid(9a99298b7dabc2f419634afc943aa76f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a5a58b4846f8d2efb1113e688dedeaf') in 0.021951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Textures/Left_SBS Sci-Fi & Fantasy 4 Medium.png
+  artifactKey: Guid(ccf2878e6d9c8cf42b01b8834c7a0595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Medium/Textures/Left_SBS Sci-Fi & Fantasy 4 Medium.png using Guid(ccf2878e6d9c8cf42b01b8834c7a0595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '340ef1e362df256e3b5cd86e4f9a267c') in 0.048529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/Turrets/Left/2DShipsMediumTurretSideViewLeft.prefab
+  artifactKey: Guid(d94c5a29e77aa1f40b5dece118511281) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/Turrets/Left/2DShipsMediumTurretSideViewLeft.prefab using Guid(d94c5a29e77aa1f40b5dece118511281) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c2dac6a50e526bfb770867f338a824e') in 0.012969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Large/Textures/Left_SBS Sci-Fi & Fantasy 5 Large.png
+  artifactKey: Guid(97d36cf4496123a4ca37b69a4744c9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Large/Textures/Left_SBS Sci-Fi & Fantasy 5 Large.png using Guid(97d36cf4496123a4ca37b69a4744c9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '145deaa77fbca6dad8d26edc47b68b72') in 0.127467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 2/png 2/asteroids 1.png
+  artifactKey: Guid(c3ef7b801e223bf42af7220584949fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 2/png 2/asteroids 1.png using Guid(c3ef7b801e223bf42af7220584949fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2dea61810553624c397464b42af6d18') in 0.016791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 3/parallax png/planet-1.png
+  artifactKey: Guid(474b0f08b09767942b6bd4ee0e1b4b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 3/parallax png/planet-1.png using Guid(474b0f08b09767942b6bd4ee0e1b4b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e207a0b7dfd087a92eebc1ebaef5407e') in 0.023703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialTopView/2DSpaceshipsFreeTrialTopViewPSDSourcefiles.rar
+  artifactKey: Guid(2ef66af49575b7f4e9518f6ce2ca58d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialTopView/2DSpaceshipsFreeTrialTopViewPSDSourcefiles.rar using Guid(2ef66af49575b7f4e9518f6ce2ca58d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f88412e56df01a329d075fbd2ab3c1b') in 0.006024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Small/Textures/Right_SBS Sci-Fi & Fantasy 5 Small.png
+  artifactKey: Guid(6f016657d42c34240b7867bc2cb53b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Small/Textures/Right_SBS Sci-Fi & Fantasy 5 Small.png using Guid(6f016657d42c34240b7867bc2cb53b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd75789ce9650478148557c1e2fb15f2d') in 0.034193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Medium/Textures/Back_SBS Sci-Fi & Fantasy 3 Medium.png
+  artifactKey: Guid(029907ca965bcab4b86567c09807baaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Medium/Textures/Back_SBS Sci-Fi & Fantasy 3 Medium.png using Guid(029907ca965bcab4b86567c09807baaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd598e8bafbb89a52e0469a3c091ccf9d') in 0.075499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/Turrets/Right/2DShipsMediumTurretSideViewRight.prefab
+  artifactKey: Guid(078010d0f9a479148bbac9092befcef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/Turrets/Right/2DShipsMediumTurretSideViewRight.prefab using Guid(078010d0f9a479148bbac9092befcef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f99f5b3f81ba2c1b06718704629356f') in 0.023142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Large/Textures/Down_SBS Sci-Fi & Fantasy 4 Large.png
+  artifactKey: Guid(9fede0e9e9738e14095bf4fc038a7f3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 4/Large/Textures/Down_SBS Sci-Fi & Fantasy 4 Large.png using Guid(9fede0e9e9738e14095bf4fc038a7f3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfd3d47817581d3ff21c83fa43985905') in 0.148890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SpaceshooterParallax/Documentation/Readme.txt
+  artifactKey: Guid(6b5a0d81399f5014cb944db9a853545c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Documentation/Readme.txt using Guid(6b5a0d81399f5014cb944db9a853545c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '004a334c9fb2681044abbe9b009d7314') in 0.006910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Medium/Textures/Right_SBS Sci-Fi & Fantasy 3 Medium.png
+  artifactKey: Guid(72c7e1691675e1a4881998b216807f7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 3/Medium/Textures/Right_SBS Sci-Fi & Fantasy 3 Medium.png using Guid(72c7e1691675e1a4881998b216807f7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '968778532bec3119904a6e885e396c66') in 0.045737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopViewScaleInRelation/2DScifiFighterExcaliburTopViewMasterPrefab.prefab
+  artifactKey: Guid(cdf17be89501f4640a7bf79c310066b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DSpaceshipsFreeTrialTopViewScaleInRelation/2DScifiFighterExcaliburTopViewMasterPrefab.prefab using Guid(cdf17be89501f4640a7bf79c310066b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e7b7408ab658844a704ccc3eb32f0a7') in 0.056212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Large/Textures/Down_SBS Sci-Fi & Fantasy 5 Large.png
+  artifactKey: Guid(dc5737050d01dfc4aadccd0eb29eabc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 5/Large/Textures/Down_SBS Sci-Fi & Fantasy 5 Large.png using Guid(dc5737050d01dfc4aadccd0eb29eabc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be86c38d1274645467c813a29c91c1a6') in 0.142540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewBlue.png
+  artifactKey: Guid(b80c32b793ae31046bc85865350fe2b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewBlue.png using Guid(b80c32b793ae31046bc85865350fe2b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7baa354cd048b9f9e46f403dd513a8b') in 0.031184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SpaceshooterParallax/Textures/png/parallax 3/png 2/Earth.png
+  artifactKey: Guid(693902fd36817fa498264f92ea6968e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Textures/png/parallax 3/png 2/Earth.png using Guid(693902fd36817fa498264f92ea6968e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2a8decfbbd974ef39c45a56a4a27eda') in 0.019264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/TopView/Turrets/2DShipsTurretSmallTopView.prefab
+  artifactKey: Guid(9f7a8621083918b42ba3bca8a2226449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/TopView/Turrets/2DShipsTurretSmallTopView.prefab using Guid(9f7a8621083918b42ba3bca8a2226449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f511d263bc795d348717b1d22c0ef63') in 0.012656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/ExampleScene+Readme/Readme2DSpaceships.pdf
+  artifactKey: Guid(6bcd3a07d19b7764aaa3e373d1c2c285) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/ExampleScene+Readme/Readme2DSpaceships.pdf using Guid(6bcd3a07d19b7764aaa3e373d1c2c285) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'baabcb3430470b9136201a934295a89d') in 0.006012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Medium/Textures/Right_SBS Sci-Fi & Fantasy 2 Medium.png
+  artifactKey: Guid(1dca052f07cd70b4ebb983812fd91841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Medium/Textures/Right_SBS Sci-Fi & Fantasy 2 Medium.png using Guid(1dca052f07cd70b4ebb983812fd91841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a8fa04a5ce9fa0cdc9aa03cbb61fe0e') in 0.043032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewBlack.png
+  artifactKey: Guid(b9c9b3ee7e1cd8c40b152ba6485ba796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Textures/2DSpaceshipsFreeTrialSideView/2DSpaceshipsFreeTrialAtlasSideViewBlack.png using Guid(b9c9b3ee7e1cd8c40b152ba6485ba796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1f5c7af5c21b58e9dd1a4e3ccdc67f4') in 0.039389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/TopView/MissileLauncher/2DShipsMissileLauncherTopView.prefab
+  artifactKey: Guid(88f8f7d77bc4a284298b36aeb4065952) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/TopView/MissileLauncher/2DShipsMissileLauncherTopView.prefab using Guid(88f8f7d77bc4a284298b36aeb4065952) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4545b4030913343edfa78cbfb7b24ac') in 0.015509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipMissilesTorpedoes/2DShipsMissileSmall.prefab
+  artifactKey: Guid(53c54a58f50e3f946a07359f340491f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipMissilesTorpedoes/2DShipsMissileSmall.prefab using Guid(53c54a58f50e3f946a07359f340491f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '224e79f9b75c623f0298690836d9e358') in 0.019463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SpaceshooterParallax/Prefabs/04/Planets.prefab
+  artifactKey: Guid(77f1629f8dac3284cb516f973a1c3159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceshooterParallax/Prefabs/04/Planets.prefab using Guid(77f1629f8dac3284cb516f973a1c3159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e6da032faabffcbaf95f67f8f04052b') in 0.013067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/Turrets/Left/2DShipsLargeTurreSideViewLeft.prefab
+  artifactKey: Guid(ce137df07c07d304bb0fafc7f6f7cf09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2DSpaceshipsFreeTrial/Prefabs/2DShipsStandardWeapons/SideView/Turrets/Left/2DShipsLargeTurreSideViewLeft.prefab using Guid(ce137df07c07d304bb0fafc7f6f7cf09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f521c1bb19b66d4b05b279da88534c35') in 0.013174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Large/Textures/Left_SBS Sci-Fi & Fantasy 2 Large.png
+  artifactKey: Guid(f57c97ba69efcbd4bb2c83550583fd36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FREE Skyboxes - Sci-Fi & Fantasy/SBS Sci-Fi & Fantasy 2/Large/Textures/Left_SBS Sci-Fi & Fantasy 2 Large.png using Guid(f57c97ba69efcbd4bb2c83550583fd36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50e53ff9567191071ab21d3de2f915f2') in 0.181440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\derie\Documents\Unity Projects\PortfolioProjects\SpaceBattle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.473 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1227ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (756ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (86.4 KB). Loaded Objects now: 3927.
+Memory consumption went from 124.2 MB to 124.1 MB.
+Total: 2.814800 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.129900 ms MarkObjects: 2.321200 ms  DeleteObjects: 0.110600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/InvertVector3Processor.cs: 26cd309c39f83c2c220d5ebd4cff9df8 -> 
+  custom:scripting/monoscript/fileName/IInputInteraction.cs: 904998db3f6a68004028b91c21d88b1a -> 
+  custom:scripting/monoscript/fileName/SetSamplingFrequencyCommand.cs: 47d086117c0acad03de65dbcce09e259 -> 
+  custom:scripting/monoscript/fileName/VirtualMouseInput.cs: e3ef3ab161a243cb2a500a35a4caee75 -> 
+  custom:scripting/monoscript/fileName/InputActionAssetEditor.cs: 4adbf4cb8c26b8932ee3ffc274073efe -> 
+  custom:scripting/monoscript/fileName/WarpMousePositionCommand.cs: 01384d8ffa6a4ca8ee07bdccdac35b25 -> 
+  custom:scripting/monoscript/fileName/IInputActionCollection.cs: 48d624420401ff220daba7d5ae2b1364 -> 
+  custom:scripting/monoscript/fileName/InputActionInspector.cs: feb294aa54880b2096f97ebf1b199a15 -> 
+  custom:scripting/monoscript/fileName/RequestSyncCommand.cs: 77a116703141a2eb2b4f13048db47d70 -> 
+  custom:scripting/monoscript/fileName/InputStateBuffers.cs: 093dce8d3186118dd5042dafab7ae9e8 -> 
+  custom:scripting/monoscript/fileName/InputActionCodeGenerator.cs: fca5f00d4b3eb657093524f16bf7bf13 -> 
+  custom:scripting/monoscript/fileName/OnScreenButton.cs: 899b27e30b3465adcf27965c13bdc93c -> 
+  custom:scripting/monoscript/fileName/DpadControl.cs: cfb85ad133fb5cf56fdc4c985aa8f908 -> 
+  custom:scripting/monoscript/fileName/SwitchProControllerHID.cs: 78f82bd2c370087351de0e08672adca7 -> 
+  custom:scripting/monoscript/fileName/InputLayoutCodeGenerator.cs: 9639b5848dc57960c08578d20d665948 -> 
+  custom:scripting/monoscript/fileName/UnityRemoteSupport.cs: 982f96b2b3bcf7b6fe852779285ed35f -> 
+  custom:scripting/monoscript/fileName/TwoModifiersComposite.cs: eb122d12dc9485d1b7f97cc256726e8b -> 
+  custom:scripting/monoscript/fileName/InputActionState.cs: 0b37a93989f6e5de9afaeb4201ff9fd1 -> 
+  custom:scripting/monoscript/fileName/InternedString.cs: 95f1db197e52a5e6ea3f009cd95df5ed -> 
+  custom:scripting/monoscript/fileName/DisableDeviceCommand.cs: 0ad271a8bb040421b84ee6fbd5f9b9ad -> 
+  custom:scripting/monoscript/fileName/NormalizeVector3Processor.cs: a9fdcc08cb92f00cadc525b362b15ecf -> 
+  custom:scripting/monoscript/fileName/GenericXRDevice.cs: 31f8338285464e5a41cc62a6bcd45bcc -> 
+  custom:scripting/monoscript/fileName/GoogleVR.cs: 99c1f4b0215996dade99604b61c7ec12 -> 
+  custom:scripting/monoscript/fileName/AnimationPlayableAsset.cs: 009db08c97e92a2c69986ab256d074e2 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OpenVR.cs: 77f0de6828ff8ecbd33f19acd04444f7 -> 
+  custom:scripting/monoscript/fileName/FastMouse.partial.cs: c1eb115b9947f2d7660b6624e6d2a006 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: 1ef1cb9af7c7d64bd75bd621bba19cd7 -> 
+  custom:scripting/monoscript/fileName/iOSPostProcessBuild.cs: 9511a85ceb885fe21fc0fd0763de6cf3 -> 
+  custom:scripting/monoscript/fileName/InputControlPicker.cs: 6b00d000a225762ecd654d2e2099bede -> 
+  custom:scripting/monoscript/fileName/IHaptics.cs: 5c70e747929f1a71eccdc11041ef53fe -> 
+  custom:scripting/monoscript/fileName/DownloadableSample.cs: 89120054f688b631c9ee6f5097128d97 -> 
+  custom:scripting/monoscript/fileName/TouchControl.cs: bc4be08888a45c76e7675bb7d2381412 -> 
+  custom:scripting/monoscript/fileName/InputSettingsProvider.cs: aad247d3909e557ebafce3429de6662a -> 
+  custom:scripting/monoscript/fileName/Keyboard.cs: 7ecd46b364aabed617ca2aa518d013e5 -> 
+  custom:scripting/monoscript/fileName/InputDevice.cs: 5d904dd2c22e502aeeaf9ca9e6633e24 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Performance.Profile-Analyzer.Editor: e1bfc0e7188f9eeca54cb211a0aba1bc -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:scripting/precompiled-assembly-types:Unity.InputSystem.TestFramework: 7ec75b260a40a57aeffe570e5787571b -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core: 9504fcd568c5d1da9d310196ecf766c4 -> 
+  custom:scripting/monoscript/fileName/AnimationTrack.cs: 579258c150686ede8cacf1f75da21715 -> 
+  custom:scripting/monoscript/fileName/InputActionDebuggerWindow.cs: 872825097bc1ef1faa83af3d2b00a7e1 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfo.cs: 53d0e8986685ee279f50bdc53646eeb9 -> 
+  custom:scripting/monoscript/fileName/IEventPreProcessor.cs: 7295c10dcae8814a8292aa0ee947599f -> 
+  custom:scripting/monoscript/fileName/IntegerControl.cs: 888315a91a2577ba62858fefb74b01da -> 
+  custom:scripting/monoscript/fileName/ViewStateCollection.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AxisComposite.cs: 1a3b07803006c7cd98260293e041921c -> 
+  custom:scripting/monoscript/fileName/QueryUserIdCommand.cs: a01aca235669f681cb2e5d6ae8addaa9 -> 
+  custom:scripting/monoscript/fileName/NormalizeProcessor.cs: 3de4423bc603683c7ace908ef059b016 -> 
+  custom:scripting/monoscript/fileName/InputDeviceDebuggerWindow.cs: d5d7f249a0c7e26b5c99aed83ca56ee7 -> 
+  custom:scripting/monoscript/fileName/InputMetrics.cs: a5c225dbed9a189ed621c2052e3e4812 -> 
+  custom:scripting/monoscript/fileName/XInputControllerWindows.cs: ccd364aacdd4c07fc90a580603986127 -> 
+  custom:scripting/monoscript/fileName/TouchHistory.cs: 0bd5153c399a7814148eb0529881c327 -> 
+  custom:scripting/monoscript/fileName/TouchscreenControlPickerLayout.cs: 2125296fdeb3923857d26aa69c1c47f2 -> 
+  custom:scripting/monoscript/fileName/InputUserSettings.cs: 916cc29923c01ad422d1a009d6775681 -> 
+  custom:scripting/monoscript/fileName/IInputRuntime.cs: 683baa8e477b4ccf74f0b797af7a5130 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State.Editor: bfd19d10497364660dabdb7b0dffedf3 -> 
+  custom:scripting/monoscript/fileName/HIDSupport.cs: 099f7abf8a3ee4aa9bd36bc75ccbfefb -> 
+  custom:scripting/monoscript/fileName/ButtonWithOneModifier.cs: 68f005a2616c543c53a81e953d2b1c97 -> 
+  custom:scripting/monoscript/fileName/QuaternionControl.cs: a9008c1888de55a3e771c5cf20b7f3d9 -> 
+  custom:scripting/monoscript/fileName/InputDiagnostics.cs: 33a0d887634ac60a4b86fe7315969c5c -> 
+  custom:scripting/monoscript/fileName/InputActionTrace.cs: 004f24f75c0a176ffc4990497785b33c -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State: a1b84a027925ee482b6dab13e9d110f3 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.SettingsProvider.Editor: 260304d2d8b32cf9aa9c89f0a7e44d64 -> 
+  custom:scripting/monoscript/fileName/SelectManyObservable.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/XInputSupport.cs: f0d85607abbb4b1149b4034019ff04ed -> 
+  custom:scripting/monoscript/fileName/InputControlDropdownItem.cs: 6f4145f10df4a32e4db357c913eda67a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MemoryHelpers.cs: 53156631467fa40859bc9c1f8f88bb12 -> 
+  custom:scripting/monoscript/fileName/CallbackDataSource.cs: 6f704c385b696082180aa49bed32c026 -> 
+  custom:scripting/monoscript/fileName/AdvancedDropdownDataSource.cs: 428d52d44c12b04eddf300f83f94fb9c -> 
+  custom:scripting/monoscript/fileName/IInputEventTypeInfo.cs: a163e0b33b0ef6de42962a548c982415 -> 
+  custom:scripting/monoscript/fileName/InputEventTreeView.cs: 70ebb846b08feb061018e0fc806019c8 -> 
+  custom:scripting/monoscript/fileName/Pointer.cs: ce2152e3a144dadf27b6b7be62c47f0a -> 
+  custom:scripting/monoscript/fileName/InputSystemUIInputModuleEditor.cs: 8bd0e6628d94b95bc4e7082bdd62e28e -> 
+  custom:scripting/monoscript/fileName/ParameterListView.cs: 018e8161ec06df153608ce9adba55c3f -> 
+  custom:scripting/monoscript/fileName/IInputStateChangeMonitor.cs: 9b99017561e3533bdb65e893153fafea -> 
+  custom:scripting/monoscript/fileName/PressInteraction.cs: 752c473143499f0f1beaacb15f400a1d -> 
+  custom:scripting/monoscript/fileName/Comparers.cs: a4fd4e4518e16b985ebc608a7fca9c48 -> 
+  custom:scripting/monoscript/fileName/DualShockSupport.cs: 58ad10689626ffbc27e9ff5e35a0fe94 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PrimitiveValue.cs: 2da19b19a1bc3da68e1b06314cd109da -> 
+  custom:scripting/monoscript/fileName/Pen.cs: 6eab9170261bbd85df09d1ffe39eb3e1 -> 
+  custom:scripting/monoscript/fileName/StringHelpers.cs: 091725760b03f79e734c77418a754009 -> 
+  custom:scripting/monoscript/fileName/JsonParser.cs: 4ca9a1eed6af4d53f2778a8abb3703e2 -> 
+  custom:scripting/monoscript/fileName/FourCC.cs: 718ad77a73db081c260cd8ce625d1d12 -> 
+  custom:scripting/monoscript/fileName/Finger.cs: 47c63a23d4568c72c9e2be18ba728ebd -> 
+  custom:scripting/monoscript/fileName/ClampProcessor.cs: 799e07eb15a017e9ba829d3f4ca99111 -> 
+  custom:scripting/monoscript/fileName/InputDeviceMatcher.cs: 934062a53f2d14192d3094d9f09442b6 -> 
+  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Model: 392eba37ada58ebddffce0d6be5344c8 -> 
+  custom:scripting/monoscript/fileName/InitiateUserAccountPairingCommand.cs: 1a666a76197a03f8f7bce4a17141341c -> 
+  custom:scripting/monoscript/fileName/InputControlPathDrawer.cs: f9c7ec3ba894b22b094bce7cea9d36c7 -> 
+  custom:scripting/monoscript/fileName/SlowTapInteraction.cs: d4d7eb3e402f2cf763b711b8aca21716 -> 
+  custom:scripting/monoscript/fileName/QuerySamplingFrequencyCommand.cs: ffe0bdcb4ec1816ad7a20032df8affbd -> 
+  custom:scripting/monoscript/fileName/InputBindingComposite.cs: 8acdccf814316320ed20f4ab536c63c4 -> 
+  custom:scripting/monoscript/fileName/InlinedArray.cs: e42627bc0cc64469ebb2649b4749f607 -> 
+  custom:scripting/monoscript/fileName/CallbackArray.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/OSXGameController.cs: a3f684cd3d6af3701e16c8699ba556c0 -> 
+  custom:scripting/monoscript/fileName/TextMeshPro.cs: 0cfab9de2f927cf0a5e3dc6276498acd -> 
+  custom:scripting/monoscript/fileName/Observable.cs: 622d3d50ef7faf6ec60105d4626f5ceb -> 
+  custom:scripting/monoscript/fileName/ScaleVector3Processor.cs: 4f21bb4fa41fc96799edb532f6172693 -> 
+  custom:scripting/monoscript/fileName/InvertVector2Processor.cs: 774a3487189aea92da637db92d9118d5 -> 
+  custom:scripting/monoscript/fileName/StandaloneInputModuleEditor.cs: 0c1eaef25625ade10d4aab2e84b9d672 -> 
+  custom:scripting/monoscript/fileName/FastTouchscreen.cs: 9057cd167dd3d29f3b1283a395a3a33e -> 
+  custom:scripting/monoscript/fileName/Sensor.cs: 419cc8c616c869ad06dd0244620146f3 -> 
+  custom:scripting/monoscript/fileName/NamedValue.cs: 8376b4dcd097f8e75b2f3411208254ef -> 
+  custom:scripting/monoscript/fileName/InputBinding.cs: f6fa0e7ca1620e125824ad7aa87dde6a -> 
+  custom:scripting/monoscript/fileName/OnInputSystemEventAnalyser.cs: 5000030ea589a42dacb479a2f3766fbd -> 
+  custom:scripting/monoscript/fileName/InputActionsEditorConstants.cs: 48474179b48b60fb02f5aec59408886a -> 
+  custom:scripting/monoscript/fileName/PlayerInputManager.cs: d78a6a69863acf031e5348de2108e605 -> 
+  custom:scripting/monoscript/fileName/BufferedRumble.cs: 6a480de6b1fe2251e7ff08c4ce4c02ea -> 
+  custom:scripting/monoscript/fileName/PointerModel.cs: 71a6371a8f201bacb2e5db4acfc37d66 -> 
+  custom:scripting/monoscript/fileName/DelegateHelpers.cs: d5bb425af0b5b02d6700aaef05db5f95 -> 
+  custom:scripting/monoscript/fileName/AnyKeyControl.cs: 6f6956b0876c685790984c2ec0fb11df -> 
+  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor: 5e2f5a09ae9956d5f2ba8667cf64daf5 -> 
+  custom:scripting/monoscript/fileName/XRLayoutBuilder.cs: 21ffc1832cbfeb6035611a9800913395 -> 
+  custom:scripting/monoscript/fileName/SDLDeviceBuilder.cs: 00cc39ba5b1705d465f85acb258f3546 -> 
+  custom:scripting/precompiled-assembly-types:Unity.CollabProxy.Editor: 9fe11a58ab4efabc40e3993980369fc4 -> 
+  custom:scripting/monoscript/fileName/EnhancedTouchSupport.cs: 60dfbeffc3a1db5c7c0f9d4fab51a6e1 -> 
+  custom:scripting/precompiled-assembly-types:Unity.InputSystem.ForUI: bae848875a35fe96f09fcc9f4e534600 -> 
+  custom:scripting/monoscript/fileName/InputManager.cs: dea24e3da8b083e8a28641430520c9c0 -> 
+  custom:scripting/monoscript/fileName/InputSystemPlugin.cs: 10a580f1db4a8ef14ffb6c3b099a0564 -> 
+  custom:scripting/monoscript/fileName/Vector2Composite.cs: 3c222e4e378dcfe52075de72b9663f60 -> 
+  custom:scripting/monoscript/fileName/GetCurrentHapticStateCommand.cs: 4cd4b9a65647c18ded8aa1c4b2b9796f -> 
+  custom:scripting/monoscript/fileName/InputExtensions.cs: 8f6f56ef37e3f054a7a7409cdb252c10 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: 82acd9e255d8f0022f3ef736c3c6eb89 -> 
+  custom:scripting/monoscript/fileName/SerializedPropertyHelpers.cs: 54656cf4b888a0555d305d3172f6ef93 -> 
+  custom:scripting/monoscript/fileName/InputActionProperty.cs: 1cef8e3bac8177c58bdf00b89999ee70 -> 
+  custom:scripting/monoscript/fileName/InputActionImporter.cs: 19c89ffe8a0f97b5dd3ac2a40ca07edb -> 
+  custom:scripting/monoscript/fileName/InputEventListener.cs: 752a4fdcf8e5a1b2edb0fe714eecfe1e -> 
+  custom:scripting/monoscript/fileName/TypeHelpers.cs: 9fde05372a5fe2745109df4672477f7b -> 
+  custom:scripting/monoscript/fileName/InputStateBlock.cs: 979e1ff106f0ac030ea1ea8df905fcdf -> 
+  custom:scripting/monoscript/fileName/PredictiveParser.cs: 11761c981acd9ecbcb551be590127cd5 -> 
+  custom:scripting/monoscript/fileName/Touch.cs: aed080cad24aa0b4153e8dc9948b58a5 -> 
+  custom:scripting/monoscript/fileName/InputControlPathEditor.cs: c4e4855b2fc09dc4e9adcd9ef893d58e -> 
+  custom:scripting/monoscript/fileName/IDualMotorRumble.cs: 5f6a1c243251c71316be36f60e2edc96 -> 
+  custom:scripting/monoscript/fileName/DefaultInputActions.cs: 6d325dce06864e239959fec06a7bcb34 -> 
+  custom:scripting/monoscript/fileName/SwitchSupportHID.cs: e50c2efa89a2ad634027df9d84b4e3e0 -> 
+  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor: 939c1390cec4719064bc8982808f80e1 -> 
+  custom:scripting/monoscript/fileName/UseWindowsGamingInputCommand.cs: 61fcd09208b8fa2432a7bcd2cc77affa -> 
+  custom:scripting/monoscript/fileName/NormalizeVector2Processor.cs: 8bd7d17d8d184d12ee67e83355ec3df6 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/OneModifierComposite.cs: 2396a536ac3012f9b195d576a48ca0bd -> 
+  custom:scripting/monoscript/fileName/XRSupport.cs: ac3cee8b33cb0b849f0005496405c94d -> 
+  custom:scripting/monoscript/fileName/InputActionMapDrawer.cs: 116fd0e890ca81f92874fad325884eac -> 
+  custom:scripting/monoscript/fileName/InputAction.cs: ac64462c0fc3595515f03f36d4efcbd2 -> 
+  custom:scripting/monoscript/fileName/DeviceConfigurationEvent.cs: 510c7dba8b40726e797345201b3fa470 -> 
+  custom:scripting/monoscript/fileName/InputActionAssetManager.cs: ea530132c4d1b5020dd6e476a2a38fb4 -> 
+  custom:scripting/monoscript/fileName/IDualShockHaptics.cs: 3802c2cf67d004ba5d74496df2179836 -> 
+  custom:scripting/monoscript/fileName/InputSettings.cs: d7ef7947692727d78270eb2592402c03 -> 
+  custom:scripting/monoscript/fileName/TouchPhaseControl.cs: 7512f1f8335d9b1be74dcd0ea47c1e22 -> 
+  custom:scripting/monoscript/fileName/Touchscreen.cs: ffc84b9850e1122be8bdcca9b037294c -> 
+  custom:scripting/monoscript/fileName/WhereObservable.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/RequestResetCommand.cs: 5a881eceedbc23163d3feb8f09a28034 -> 
+  custom:scripting/monoscript/fileName/InvertProcessor.cs: 8fef723b3e8cbb132d922876d3097cdd -> 
+  custom:scripting/monoscript/fileName/UISupport.cs: 4aef61197fdf43dacd2c65403caf85ae -> 
+  custom:scripting/monoscript/fileName/InputControlTreeView.cs: 1bdd4cb4dbef8eaf9ad8e2bac2f52d92 -> 
+  custom:scripting/monoscript/fileName/InputControlList.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
+  custom:scripting/monoscript/fileName/SetIMECursorPositionCommand.cs: e9aeee9dfc1e3895d4b1fdbc699ffd99 -> 
+  custom:scripting/monoscript/fileName/IViewStateCollection.cs: 1a1a29e9cf9e831fdcf0170a29d9ffa4 -> 
+  custom:scripting/monoscript/fileName/SerializedPropertyLinqExtensions.cs: eb3c7e6c13c4deaa409be0505d1c60ed -> 
+  custom:scripting/monoscript/fileName/StickDeadzoneProcessor.cs: 6d6058c9ef1ff49292708e93df0f6950 -> 
+  custom:scripting/monoscript/fileName/InputRemoting.cs: f8614d7aef4c39466e146a472122fec7 -> 
+  custom:scripting/monoscript/fileName/DualShockGamepad.cs: f5f4051139b2f1a41a8085b7526eb7be -> 
+  custom:scripting/monoscript/fileName/TrackedDeviceRaycaster.cs: b8a6378867816e80ed0f3d9fe60f3bbe -> 
+  custom:scripting/monoscript/fileName/Substring.cs: 155bc9f3de23b8c08e135b802ded7331 -> 
+  custom:scripting/monoscript/fileName/OnScreenControl.cs: 82f54ae925b6933f7962f7d2cbe60763 -> 
+  custom:scripting/monoscript/fileName/InputControlPickerState.cs: 5f9b5cb8afce48007728175c3eb057e8 -> 
+  custom:scripting/monoscript/fileName/TrackedDevice.cs: c0a523d9ef4d6df623781ab9912266ea -> 
+  custom:scripting/monoscript/fileName/InputUser.cs: 36260a9ec48499f72e73f9eafc0552cb -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.UI: 6bae215471362000d6dbd3e0ee304a50 -> 
+  custom:scripting/monoscript/fileName/MiscHelpers.cs: d6cca883f594dee23f0feba018b6d615 -> 
+  custom:scripting/monoscript/fileName/ExceptionHelpers.cs: efe275f28a8e9b2b00af109efb2e0ab3 -> 
+  custom:scripting/monoscript/fileName/NativeInputRuntime.cs: 1afac435db3687569cb35bb179fea323 -> 
+  custom:scripting/monoscript/fileName/WebGLSupport.cs: 654530562f42308f2719cc6498dc6cd4 -> 
+  custom:scripting/monoscript/fileName/TimelineAssetViewModel.cs: 18a79fa063972d49f8538ad72ae7e75c -> 
+  custom:scripting/monoscript/fileName/StickControl.cs: a26eebfd1e1a58f0392d28dd3a767141 -> 
+  custom:scripting/monoscript/fileName/AndroidSupport.cs: 9ab785defff34023abc57840edf3d952 -> 
+  custom:scripting/monoscript/fileName/IInputDeviceCommandInfo.cs: 9dd42f14ac828da16c6ba30310467251 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/InputTestRuntime.cs: d5127b47e25b8c5088abf4e0deaa8d86 -> 
+  custom:scripting/monoscript/fileName/ExtendedAxisEventData.cs: 4c1bfc702ee844fc30595587145d523b -> 
+  custom:scripting/monoscript/fileName/AxisDeadzoneProcessor.cs: 4ce0869e85b18c3815fae1e784e9f914 -> 
+  custom:scripting/monoscript/fileName/EnableDeviceCommand.cs: 03f13a346a45c1316cc4c74086075cbf -> 
+  custom:scripting/monoscript/fileName/DualMotorRumbleCommand.cs: fe0683f0fffd14959bf3d500e2cc8956 -> 
+  custom:scripting/monoscript/fileName/BaseInputOverride.cs: a912c8e7729c202e46ac536346090423 -> 
+  custom:scripting/monoscript/fileName/InputActionDrawerBase.cs: 7678ae39aaf45b1e79da3f1a0f035552 -> 
+  custom:scripting/monoscript/fileName/HoldInteraction.cs: d489b50bc685e46cac1f3a9378268f4e -> 
+  custom:scripting/monoscript/fileName/AndroidGameController.cs: 983c50cb29c719445cd8ec25f85ff5c0 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/HIDDescriptorWindow.cs: 6aaa5f652db1e6353aacd01ef4c18854 -> 
+  custom:scripting/monoscript/fileName/LinuxSupport.cs: 25480eb3c0fe95eb4511ca50e34150d8 -> 
+  custom:scripting/monoscript/fileName/EnumerableExtensions.cs: ee0912cc6284c651dd85d40fab4256b8 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline: b058d380530d91aefff3cf869316d3f0 -> 
+  custom:scripting/monoscript/fileName/Vector3Composite.cs: 03fb54f1caeff9fd76135a6140243511 -> 
+  custom:scripting/monoscript/fileName/InputSettingsiOSProvider.cs: 740a15f6b71b62d4d0ab469224856ce4 -> 
+  custom:scripting/monoscript/fileName/Vector3Control.cs: e9a096b3ccdb308c7a9d4b5889021b7a -> 
+  custom:scripting/monoscript/fileName/iOSSupport.cs: 7d32c4cb2d69af779288f2a9cd8deac0 -> 
+  custom:scripting/monoscript/fileName/InputActionTreeViewItems.cs: 60a054e7e783d32e6aa767531543afa7 -> 
+  custom:scripting/monoscript/fileName/QueryKeyNameCommand.cs: 37e2ae06bb378bdc7d63674123948cdc -> 
+  custom:scripting/monoscript/fileName/TapInteraction.cs: 596bdc6ff1cd547c8cdd5f2cc72ee25a -> 
+  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection: 0065f084a5e0ee2eda32260040c06f1b -> 
+  custom:scripting/monoscript/fileName/InputActionSerializationHelpers.cs: 9b5c83021d7fdf16fa02001c66bf5d6f -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Shared.Editor: b1bd646cbd56acfef4597dda0faf849f -> 
+  custom:scripting/monoscript/fileName/InputDebuggerWindow.cs: 1dae732b971e79e790411dffde0dc007 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ReadOnlyArray.cs: 3483e6d7d8ddcc3c4be5ef7b099dae36 -> 
+  custom:scripting/monoscript/fileName/HID.cs: 14ac29e61424a85a621280935b74e9d3 -> 
+  custom:scripting/monoscript/fileName/InputActionSetupExtensions.cs: 9f825161e7326e1030e07355fbc72851 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MultiLevelDataSource.cs: f2b2576c0243f129ea7ce41b871724db -> 
+  custom:scripting/monoscript/fileName/PlayerInput.cs: 1cee85eeeadffae2bed639a188980b07 -> 
+  custom:scripting/monoscript/fileName/InputProcessor.cs: 3ec0d2c772ab1a7b95e1616ff5397755 -> 
+  custom:scripting/monoscript/fileName/SendBufferedHapticsCommand.cs: 3de60d0072c8966f3fa67e7e06b3de82 -> 
+  custom:scripting/monoscript/fileName/InputInteractionContext.cs: e9b9207c5a457e9ba1ed5b963caa1c29 -> 
+  custom:scripting/monoscript/fileName/InputActionReference.cs: fbc849277b28f1d12c10638fd6cc5e30 -> 
+  custom:scripting/monoscript/fileName/ITextInputReceiver.cs: 8b2979455c8552da770df1cfa8183102 -> 
+  custom:scripting/monoscript/fileName/QueryEditorWindowCoordinatesCommand.cs: 0c7e5370fa30be3b2697197e96ebdac1 -> 
+  custom:scripting/monoscript/fileName/ScaleProcessor.cs: ea599d555a5ed7276ea05d57b45e43df -> 
+  custom:scripting/monoscript/fileName/InputControlScheme.cs: 54ecc2e6b48d0a96beee21c6444842e2 -> 
+  custom:scripting/monoscript/fileName/InputDeviceBuilder.cs: c6e7fb09ff8d2cc0d492291cffb5dd90 -> 
+  custom:scripting/monoscript/fileName/InputUpdateType.cs: abf5b4d2515f610113412cbf99b0e951 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: d204d28cd103c830c5d0fadd0affaa78 -> 
+  custom:scripting/monoscript/fileName/EditorWindowSpaceProcessor.cs: 972d1caf54a44d4a9cecbaa9bedec5ca -> 
+  custom:scripting/monoscript/fileName/InputEditorUserSettings.cs: a0a69ad77f1e5a40ed7ef9025a06e030 -> 
+  custom:scripting/monoscript/fileName/InputActionAsset.cs: 235856b3baea8efeb679f57b86b2e78b -> 
+  custom:scripting/monoscript/fileName/InputFeatureNames.cs: 1a316c2d23c80d5649d91f21104b1196 -> 
+  custom:scripting/monoscript/fileName/Gamepad.cs: 266a4361e17cc18fb7776706f865b6cc -> 
+  custom:scripting/monoscript/fileName/Vector2Control.cs: ad75cbde8c4029137f073e4f44bb18d0 -> 
+  custom:scripting/monoscript/fileName/TrackedPoseDriver.cs: 788465d3a9fa832aab77dafce07b03db -> 
+  custom:scripting/monoscript/fileName/InputControl.cs: beed85fe9b3431d0b1ba03e15cb33fe6 -> 
+  custom:scripting/monoscript/fileName/TextMeshProUGUI.cs: b783d06a82b0620f102e3253b4b9fc9b -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: f5758234275f5346968d00e3b1a1c0e4 -> 
+  custom:scripting/monoscript/fileName/OnScreenStick.cs: 9c42f0c502d32edf782a820c693d1a78 -> 
+  custom:scripting/monoscript/fileName/NavigationModel.cs: 1c263830c18aeaed6a5f098797d42577 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor: beb7650f4acfb920369c4b53d5d1d8a0 -> 
+  custom:scripting/monoscript/fileName/ScaleVector2Processor.cs: ffa977729ad018813fd2604f3961d4a6 -> 
+  custom:scripting/monoscript/fileName/OnScreenSupport.cs: 49400ba586ee250d59e551f6447ee71e -> 
+  custom:scripting/monoscript/fileName/InputStateWindow.cs: 07ffe9d19da59cd790dac73385b44113 -> 
+  custom:scripting/monoscript/fileName/InputDeviceDescription.cs: b7fafe849135bccdd4576f0a348eb655 -> 
+  custom:scripting/monoscript/fileName/WinUserInput.cs: 56506de120dd826b17622d0065c9f5bb -> 
+  custom:scripting/monoscript/fileName/ActionEvent.cs: b3ea1ccaeb8c8f45c6b4115a47e7e07f -> 
+  custom:scripting/monoscript/fileName/InputControlPickerDropdown.cs: 42f29cccd66ea903b2ff08e0668e70b3 -> 
+  custom:scripting/monoscript/fileName/TouchSimulation.cs: feb611e04b376a0121f4ebc0bc2c56ac -> 
+  custom:scripting/monoscript/fileName/Observer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/QueryCanRunInBackground.cs: 0430278e077d59b82dbda0fc3b6d50dd -> 
+  custom:scripting/monoscript/fileName/TakeNObservable.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/TouchPressControl.cs: 32da007e297b36a2fe817f63e5f6bbb5 -> 
+  custom:scripting/monoscript/fileName/QueryEnabledStateCommand.cs: 87c8e7655c4949e0535eb54544eb97da -> 
+  custom:scripting/monoscript/fileName/InputEvent.cs: fd054d2072bcad44e3a253005347289b -> 
+  custom:scripting/monoscript/fileName/InputActionRebindingExtensions.cs: 800aebbd7a30c1f9ff7fb1fa8ee640fa -> 
+  custom:scripting/monoscript/fileName/ForDeviceEventObservable.cs: f39d5cdafde47df1f2a834a038b823b7 -> 
+  custom:scripting/monoscript/fileName/InputUserAccountHandle.cs: a5f9751051223c483aa2839401cb39cd -> 
+  custom:scripting/monoscript/fileName/IEventMerger.cs: 1b166203b9c6da6368d80320ec7c9961 -> 
+  custom:scripting/monoscript/fileName/InputEventStream.cs: ea6c76443cc84b1345bb202bc3c6e172 -> 
+  custom:scripting/monoscript/fileName/InputActionMap.cs: 7796e3225f536783e555cebebc915987 -> 
+  custom:scripting/monoscript/fileName/ButtonWithTwoModifiers.cs: 8fbe9bb2a05d6d8ae165c4af2a58f87a -> 
+  custom:scripting/monoscript/fileName/DefaultInputControlPickerLayout.cs: 0d39d096b1a242cb2404a05c8ab9b9dc -> 
+  custom:scripting/monoscript/fileName/IOSGameController.cs: dd4dd0e526e0233e35c4166a4e15be3b -> 
+  custom:scripting/monoscript/fileName/InputControlLayout.cs: 14cb813b35120ffd242f99d5c15bb438 -> 
+  custom:scripting/monoscript/fileName/GetHapticCapabilitiesCommand.cs: cae75b99f8d3e9c6ddab6313911969e6 -> 
+  custom:scripting/monoscript/fileName/KeyControl.cs: 8c245292417dc646748409be61bb7b1e -> 
+  custom:scripting/monoscript/fileName/InputParameterEditor.cs: 431a7292e136429730776139ea5efe7c -> 
+  custom:scripting/monoscript/fileName/PoseControl.cs: 26044499bf9bfd77ab38d92d33de1d80 -> 
+  custom:scripting/monoscript/fileName/InputSystem.cs: 2d04686e597c23245a49375e1fb3215d -> 
+  custom:scripting/monoscript/fileName/OnInputSystemEvent.cs: e171c6b3cddc0b66f4aceeb7d12168cd -> 
+  custom:scripting/monoscript/fileName/PlayerInputEditor.cs: d2b3afdcbb77e18a055744ba3890b2dc -> 
+  custom:scripting/monoscript/fileName/FastMouse.cs: c1eb115b9947f2d7660b6624e6d2a006 -> 
+  custom:scripting/precompiled-assembly-types:Unity.InputSystem: fc6d0e2cd5f45f630970aa71bff021eb -> 
+  custom:scripting/monoscript/fileName/MultiplayerEventSystem.cs: 05b50b616573877ef9101c0539ee4f31 -> 
+  custom:scripting/monoscript/fileName/InputBindingCompositeContext.cs: d2a9f79b307a55dd2196a058ec520c90 -> 
+  custom:scripting/monoscript/fileName/CSharpCodeHelpers.cs: d0cc2f7c294cb0d1437e3101c51f7d3e -> 
+  custom:scripting/monoscript/fileName/SelectObservable.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ICustomDeviceReset.cs: 3b447b167c25000b29105ece94677719 -> 
+  custom:scripting/monoscript/fileName/NumberHelpers.cs: 322df6125e7a7f4f0d1f63844c1365d8 -> 
+  custom:scripting/monoscript/fileName/AndroidSensors.cs: 86b1397c0edde5f4948c6f927e39ac2a -> 
+  custom:scripting/monoscript/fileName/XInputController.cs: 3c93688e4b8cb689f66843b8c8f16884 -> 
+  custom:scripting/monoscript/fileName/InputEventPtr.cs: a12d6ebfcf9beb317d1aba534bdcb661 -> 
+  custom:scripting/monoscript/fileName/DeltaStateEvent.cs: af7845327b744d1496e77475c17d3b0d -> 
+  custom:scripting/monoscript/fileName/InputControlExtensions.cs: ae0219bac3a6c7734d164606a5ed0820 -> 
+  custom:scripting/monoscript/fileName/ExtendedPointerEventData.cs: f800ca056555c185c05f28019e4b9518 -> 
+  custom:scripting/monoscript/fileName/OneOrMore.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/EditorHelpers.cs: eda3dee24631ee2d7037d1e0dd169286 -> 
+  custom:scripting/monoscript/fileName/AxisControl.cs: 68b436317dff8e5185c81d8673960fc4 -> 
+  custom:scripting/monoscript/fileName/SavedState.cs: 56a12a9cddf9ae7c17f0f2e9ce84e15c -> 
+  custom:scripting/monoscript/fileName/iOSStepCounter.cs: 2c61d0bc46d04bce2f6762804671c954 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SerializedInputActionMap.cs: e95d2d4c78a3c4d8a469e16dec186e8f -> 
+  custom:scripting/monoscript/fileName/InputControlLayoutAttribute.cs: 8a00dd4a575a7b549eada1a6489a8652 -> 
+  custom:scripting/monoscript/fileName/IInputStateTypeInfo.cs: cea8b54e443ea633a8182d334b401856 -> 
+  custom:scripting/monoscript/fileName/IInputUpdateCallbackReceiver.cs: ba48e6e35145b7f1ac3afdd775575522 -> 
+  custom:scripting/monoscript/fileName/TextEvent.cs: 76acc414d4175dd733571757e9b97806 -> 
+  custom:scripting/monoscript/fileName/InputActionPropertiesView.cs: 87bb23a03865ebab6df4302eab03f8f8 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VSCode.Editor: ce0f8be6c84057ddac8877610b9e6a0a -> 
+  custom:scripting/monoscript/fileName/QueryPairedUserAccountCommand.cs: 7c1bc8fc23b5eb9e494267177f02f139 -> 
+  custom:scripting/monoscript/fileName/InputActionDrawer.cs: 9b483107b0ea7770f76a7cdd6ff316d0 -> 
+  custom:scripting/monoscript/fileName/InputSystemWidget.cs: 8f101911900fd5c78c807da3e1c794a8 -> 
+  custom:scripting/monoscript/fileName/EditorPlayerSettingHelpers.cs: e9960188ed6c5b949b993e59ce59ce87 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CommonUsages.cs: 18408d7225731f5f7bf0e3a3ad47e27f -> 
+  custom:scripting/monoscript/fileName/InputActionEditorWindow.cs: e72d7d7ff1055479629b55015dfaf76d -> 
+  custom:scripting/monoscript/fileName/InputAnalytics.cs: 70269303ff292b656bbef56a407380bd -> 
+  custom:scripting/monoscript/fileName/TypeTable.cs: a6a17e2e95c02f50895f3adeb936d7ed -> 
+  custom:scripting/monoscript/fileName/LinkFileGenerator.cs: 2ed47bf5d52f4c1c29dec48f52ce1e5a -> 
+  custom:scripting/monoscript/fileName/AdvancedDropdownGUI.cs: 207e6d663a15858e0a112d6acb1b7040 -> 
+  custom:scripting/monoscript/fileName/MultiTapInteraction.cs: 84287a69790c19af273393c4356ab542 -> 
+  custom:scripting/monoscript/fileName/InputControlAttribute.cs: b5a64d55a813f6d1227b56436c59c015 -> 
+  custom:scripting/monoscript/fileName/AdvancedDropdownItem.cs: e6f1b87cfdf3b7e725137f6813d17509 -> 
+  custom:scripting/monoscript/fileName/InputDeviceCommand.cs: d588e191d7cda05d4a0288a8ee1147ba -> 
+  custom:scripting/monoscript/fileName/DualShockGamepadHID.cs: 3c5ed97f9b3e5e626f6f09a9f7393581 -> 
+  custom:scripting/monoscript/fileName/DisplayStringFormatAttribute.cs: c3a032e117cd328db2f0cf4598514a4e -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow: 051f017e0284fd495693eebc4c757586 -> 
+  custom:scripting/monoscript/fileName/IInputControlPickerLayout.cs: be294e73c659279f0b3a534655ea4322 -> 
+  custom:scripting/monoscript/fileName/HIDParser.cs: 5e6b09e173e9593382d5e79e226d6494 -> 
+  custom:scripting/monoscript/fileName/InputActionTreeView.cs: f3d84e564140a344e0a57a9232bf0ccb -> 
+  custom:scripting/monoscript/fileName/WindowsMR.cs: 1bb4de47cfd939e21ec4f06c3d56a563 -> 
+  custom:scripting/monoscript/fileName/NameAndParameterListView.cs: 95bddb736514603e46d742676b9fb05f -> 
+  custom:scripting/monoscript/fileName/ReactiveProperty.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SpriteUtilities.cs: 5c000e635950e4b0a960602df9fe8ffb -> 
+  custom:scripting/monoscript/fileName/InputEventBuffer.cs: 33cbaee6508a09a49b071c485ac9102d -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.UI: f762135bac905e34e2b540c872c48817 -> 
+  custom:scripting/monoscript/fileName/InputSystemObject.cs: 9663811dbe13b672cf3c5764a9482504 -> 
+  custom:scripting/monoscript/fileName/StateEvent.cs: ecd22adce780bc400b70e46370003b20 -> 
+  custom:scripting/monoscript/fileName/EditorInputControlLayoutCache.cs: aa10f55e68ca82913364b6b44aa7f461 -> 
+  custom:scripting/monoscript/fileName/InputActionImporterEditor.cs: 0050b2eb2bc3d87733c8c96c41de610b -> 
+  custom:scripting/monoscript/fileName/InputEventTrace.cs: 6b04dbd582208bc1f6bf78a5481b91e2 -> 
+  custom:scripting/monoscript/fileName/ExpressionUtils.cs: 013fd47e1c2b83228144928557c1ba49 -> 
+  custom:scripting/monoscript/fileName/DualMotorRumble.cs: a5c6abaf1032f7b942e62506711d90ba -> 
+  custom:scripting/monoscript/fileName/WebGLJoystick.cs: a371b63b19b599ea436e51a8622ae305 -> 
+  custom:scripting/monoscript/fileName/InputActionPropertyDrawer.cs: 19280eef7f6d2b681e448dc21fd2c314 -> 
+  custom:scripting/monoscript/fileName/ButtonControl.cs: 5be55aef70c0999215c87b2ebada03bb -> 
+  custom:scripting/monoscript/fileName/RemoteInputPlayerConnection.cs: 959b7c9f720d36172770da64f623d8a3 -> 
+  custom:scripting/monoscript/fileName/InputTestFixture.cs: 11f95b08f956d0e0534e403aaea3e0cf -> 
+  custom:scripting/monoscript/fileName/TimelineAsset.cs: 922c4504d3900c9d0f1009b93072bf15 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 1a1d9a9cba7940fed9939f7306abee3f -> 
+  custom:scripting/monoscript/fileName/AdvancedDropdownState.cs: f58f4f7e4985491ab3d781ef1400a71e -> 
+  custom:scripting/monoscript/fileName/EnableIMECompositionCommand.cs: 442c712f29199433589d44a5aa77b265 -> 
+  custom:scripting/monoscript/fileName/IXboxOneRumble.cs: 1ff76612acedabce48adac10ccc4ff22 -> 
+  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro.Editor: 46ffe279a7239cd1fb74eb9c5ab5b5d8 -> 
+  custom:scripting/monoscript/fileName/InputSettingsBuildProvider.cs: 5d0bda9b4dc3704476fdb73c6130f785 -> 
+  custom:scripting/monoscript/fileName/Mouse.cs: 51f1aeae346f8ba35ce1eae4cd718ea3 -> 
+  custom:scripting/monoscript/fileName/IMECompositionEvent.cs: 17f069477bc4d20ba49d87cb5179ba0d -> 
+  custom:scripting/monoscript/fileName/NameAndParameters.cs: 2a9078e35e9bfc491ba2ffb3455b3236 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualStudio.Editor: d3eec9932ca66612a81e6a5c47e2f17f -> 
+  custom:scripting/monoscript/fileName/AdvancedDropdown.cs: fa69d35a411c6393fda2fd8d798192e5 -> 
+  custom:scripting/monoscript/fileName/AdvancedDropdownWindow.cs: 235b2f05f0f17c166eb77c8d57102337 -> 
+  custom:scripting/monoscript/fileName/DeltaControl.cs: 6b397435e9b765e741337a7982e0568f -> 
+  custom:scripting/monoscript/fileName/InputSettingsiOS.cs: eec21a0f4c50ceb1dd70fcff7ed2d8ce -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PropertiesViewBase.cs: ab4a9abc2367374ef408b77c20b6af94 -> 
+  custom:scripting/monoscript/fileName/GUIHelpers.cs: 60ae23a9fa510a6b46396be7f79ede40 -> 
+  custom:scripting/monoscript/fileName/DiscreteButtonControl.cs: dfa90d972c30096c4f7b7c1be2abf41d -> 
+  custom:scripting/monoscript/fileName/QueryDimensionsCommand.cs: 9dede612b2efbec178dc9289429b384b -> 
+  custom:scripting/monoscript/fileName/DoubleControl.cs: 0e8ba0ca87f759d63baeef89535dfd87 -> 
+  custom:scripting/monoscript/fileName/QueryKeyboardLayoutCommand.cs: 202a87fda801e4aee6e91befbd89e701 -> 
+  custom:scripting/monoscript/fileName/InputStateHistory.cs: 9771bbe5c5afd534a9dc0f8e8f60ae99 -> 
+  custom:scripting/monoscript/fileName/TreeViewHelpers.cs: cf522364eff518ecfcf0cf468392474e -> 
+  custom:scripting/monoscript/fileName/TrackAsset.cs: 05c366eb01e12385210cbb2c784bc95b -> 
+  custom:scripting/monoscript/fileName/InputValue.cs: 5e873095f1f8f449ce71f7ae265ebfc7 -> 
+  custom:scripting/monoscript/fileName/InputActionParameters.cs: 8ec6cd02063bce29fc5f16aa6f97020d -> 
+  custom:scripting/monoscript/fileName/InputActionEditorToolbar.cs: 862861ded96be9597dde3c6213c9500e -> 
+  custom:scripting/monoscript/fileName/InputSystemUIInputModule.cs: 7c711937d8f4dbfd5b13401c6051fc58 -> 
+  custom:scripting/monoscript/fileName/IInputDiagnostics.cs: ea6330d075ac249db017e93904b1906b -> 
+  custom:scripting/monoscript/fileName/ArrayHelpers.cs: 7478d3b887e0c3afe312a1585d7ab77d -> 
+  custom:scripting/monoscript/fileName/InputControlPath.cs: bc2fac94a36cbab9b49a74e253baa4f5 -> 
+  custom:scripting/monoscript/fileName/DynamicBitfield.cs: 340e19ce1cb6f81a8185cbb2bbc79160 -> 
+  custom:scripting/monoscript/fileName/CompensateDirectionProcessor.cs: 8b43e411f5b52e59e2993a5277f0d2e2 -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.TestRunner: 1b08a5e3d69264f3b8177a3e839577fe -> 
+  custom:scripting/monoscript/fileName/DeviceRemoveEvent.cs: 33979af4133f057c53fed833232d5335 -> 
+  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro: 59230975e8163396a463bd906828ec67 -> 
+  custom:scripting/monoscript/fileName/FastKeyboard.cs: 517b983862044be24636f4f20b4c6b8c -> 
+  custom:scripting/monoscript/fileName/OSXSupport.cs: 63316ac61e481390e31b5b83b851ef9a -> 
+  custom:scripting/monoscript/fileName/TimelineWindow.cs: 1ecae22b1c6d42e0f96084d9a8d5699a -> 
+  custom:scripting/monoscript/fileName/SendHapticImpulseCommand.cs: f861e3878e1b38fdc5e7357d87264e9e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 15e22bf63ac43d153c7294844e655fe6 -> 
+  custom:scripting/monoscript/fileName/CompensateRotationProcessor.cs: d5a3722c29051a4adb0efee7e4989a0c -> 
+  custom:scripting/monoscript/fileName/InputAction_DirectConverter.cs: 10397d04d305c6e7d90b09edbb081ce9 -> 
+  custom:scripting/monoscript/fileName/DeviceResetEvent.cs: 7e1e07844ad3da9d24238e0ee1f42c17 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Rider.Editor: e16338d156ee865d32182e85a4ba9f4e -> 
+  custom:scripting/monoscript/fileName/IInputStateCallbackReceiver.cs: 186de0ed698901e9bd4fe43876d2eb6b -> 
+  custom:scripting/monoscript/fileName/InputBindingResolver.cs: 5c7308cba04403c2ec02473a20595c74 -> 
+  custom:scripting/monoscript/fileName/PlayerInputManagerEditor.cs: 373859aaf721662fa2d3a5008109e828 -> 
+  custom:scripting/monoscript/fileName/WebGLGamepad.cs: 38d4094cfcfa00e7b8f84db2e77d746c -> 
+  custom:scripting/monoscript/fileName/InputManagerStateMonitors.cs: dea24e3da8b083e8a28641430520c9c0 -> 
+  custom:scripting/monoscript/fileName/InputBindingPropertiesView.cs: c3a43f9e3c4cf814c7eae92d616bfbaf -> 
+  custom:scripting/monoscript/fileName/InputState.cs: aac8577aed515a34370fbda6b0c1e20e -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow.Editor: b0e96813f2d2157e48db4a04dd2883c1 -> 
