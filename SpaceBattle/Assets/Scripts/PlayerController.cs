@@ -13,10 +13,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 3f;
     [SerializeField] private Transform rCannon, lCannon;
     [SerializeField] private GameObject laser;
-    [SerializeField] private float cannonCoolDown = 0f;
+    [SerializeField] private float cannonCoolDown;
+    [SerializeField] private float timeBetweenCannon = 1f;
 
     [SerializeField] private int lives;
     public int maxLives;
+
+    private bool hasBeenHitThisFrame = false;
+    [SerializeField] private Collider2D col;
 
     public static PlayerController instance;
 
@@ -31,7 +35,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        lives = 3;
     }
 
     // Update is called once per frame
@@ -81,19 +85,60 @@ public class PlayerController : MonoBehaviour
         {
             Instantiate(laser, rCannon.position, Quaternion.identity);
             Instantiate(laser, lCannon.position, Quaternion.identity);
-            cannonCoolDown = 1.5f;
+            cannonCoolDown = timeBetweenCannon;
         }
 
     }
     private void TakeDamage()
     {
         lives--;
-        UIManager.instance.MinusLife(lives);
+        UIManager.instance.UpdateLives(lives);
 
         if (lives <= 0)
         {
             Destroy(this.gameObject);
+            GameManager.instance.gameOver = true;
+            SpawnManager.instance.gameOver = true;
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Enemy")
+        {
+            Debug.Log("Enemy hit Player");
+            TakeDamage();
+            Destroy(other.gameObject);
+            hasBeenHitThisFrame = true;
+            ColliderOff();
+        }
+    }
+    IEnumerator ColliderOffRoutine()
+    {
+        col.enabled = false;
+        yield return new WaitForSeconds(0.4f);
+        col.enabled = true;
+        hasBeenHitThisFrame = false;
+    }
+
+    public void ColliderOff()
+    {
+        StartCoroutine(ColliderOffRoutine());
+    }
+
+    private void ShieldActive()
+    {
+
+    }
+    private void QuickFire()
+    {
+        timeBetweenCannon /= 3;
+        StartCoroutine(QuickFireCoolDownRoutine());
+    }
+
+    IEnumerator QuickFireCoolDownRoutine()
+    {
+        yield return new WaitForSeconds(5);
+        timeBetweenCannon *= 3;
+    }
 }

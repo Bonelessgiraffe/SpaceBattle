@@ -5,16 +5,19 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float speed;
-    [SerializeField] private float cannonCoolDown;
+    private float cannonCoolDown;
     [SerializeField] private int health;
+
+    [SerializeField] private GameObject laserPrefab;
+    [SerializeField] private Transform cannonTransform;
     
     [SerializeField] private int scoreValue;
 
     // Start is called before the first frame update
     void Start()
     {
-        speed = Random.Range(4, 6);
-       
+        speed = Random.Range(2, 5);
+        cannonCoolDown = Random.Range(2, 4);
     }
 
     // Update is called once per frame
@@ -36,7 +39,12 @@ public class Enemy : MonoBehaviour
         if (health <= 0)
         {
             Destroy(this.gameObject);
+            GameManager.instance.UpdateScore(scoreValue);
         }
     }
    
+    private void FireLaser()
+    {
+        Instantiate(laserPrefab, cannonTransform.position, Quaternion.identity);
+    }
 }
