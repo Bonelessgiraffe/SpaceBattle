@@ -70,7 +70,8 @@ public class GameManager : MonoBehaviour
         // UIManager.instance.NewHighScorePanel.SetActive(false);
 
         SavePlayerName();
-        HighScoreList.instance.AddHighScore(pName, totalScore);      
+        //HighScoreList.instance.AddHighScore(pName, totalScore);      
+        HighScoreList.instance.CheckIfCanAddNewHighScore(new HighScoreElement(pName, totalScore));
         highScorePanel.gameObject.SetActive(true);
     }
 
