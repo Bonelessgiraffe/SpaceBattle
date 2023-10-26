@@ -10,7 +10,7 @@ public class HighScoreList : MonoBehaviour
     [SerializeField] private Transform entryCsontainer;
     [SerializeField]  private Transform entryTemplate;
 
-    [SerializeField] public List<HighScoreElement> highScoreElementList; // = new List<HighScoreElement>();
+    [SerializeField] public List<HighScoreElement> highScoreElementList; 
     int maxCount = 5;
 
     public static HighScoreList instance;
@@ -24,8 +24,11 @@ public class HighScoreList : MonoBehaviour
         instance = this;
         LoadHighScores();
     }
-  
 
+    public void Start()
+    {
+        HIghScorePanelUI.instance.UpdateUI(highScoreElementList);
+    }
 
     public void AddHighScore(string name, int score)
     {
@@ -42,10 +45,12 @@ public class HighScoreList : MonoBehaviour
 
     public void CheckIfCanAddNewHighScore(HighScoreElement element)
     {
+        Debug.LogError("Check High score called");
         for ( int i = 0; i < maxCount; i++)
         {
-            if (i < highScoreElementList.Count && element.points > highScoreElementList[i].points )
+            if (i < highScoreElementList.Count && element.points > highScoreElementList[i].points || highScoreElementList.Count < 5 )
             {
+                Debug.LogError("Can Add");
                 highScoreElementList.Insert(i, element);
                 //inserts element at i and moves everything down one space
                 while (highScoreElementList.Count > maxCount)
@@ -53,11 +58,11 @@ public class HighScoreList : MonoBehaviour
                     highScoreElementList.RemoveAt(maxCount);
                 }
                 SaveHighScores();
+                LoadHighScores();
                 break; //break skips the rest of for loop
             }
-        }
- 
-    
+        }   
+       
     }
     [System.Serializable]
     class SaveData
@@ -67,21 +72,23 @@ public class HighScoreList : MonoBehaviour
     }
     public void SaveHighScores()
     {
+        Debug.Log("SaveHIghScore Called");
+
         SaveData data = new SaveData();
         data.sDHighScoreElementList = highScoreElementList;
 
-        Debug.Log("Save called");
-        //List<HighScoreElement> highScoreElementList = new List<HighScoreElement>();
         string json = JsonUtility.ToJson(data);
 
         File.WriteAllText(Application.persistentDataPath + "/savefile2.json", json);
+        
     }
 
 
     public void LoadHighScores()
     {
-        Debug.Log("HI!");
 
+        Debug.Log("LoadHighScores Called");
+        
         string path = Application.persistentDataPath + "/savefile2.json";
         if (File.Exists(path))
         {
@@ -89,6 +96,7 @@ public class HighScoreList : MonoBehaviour
             SaveData data = JsonUtility.FromJson<SaveData>(json);
             
             highScoreElementList = data.sDHighScoreElementList;
+            HIghScorePanelUI.instance.UpdateUI(highScoreElementList);
         }
         else
         {
@@ -101,4 +109,6 @@ public class HighScoreList : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    
 }

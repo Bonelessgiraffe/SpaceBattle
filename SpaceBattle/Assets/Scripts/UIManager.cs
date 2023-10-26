@@ -10,7 +10,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] public GameObject gameOverPanel;
     public TMP_Text finalScoreText;
     public TMP_Text newHighScoreText;
-    public GameObject NewHighScorePanel;
+    public GameObject newHighScorePanel;
     [SerializeField] private TMP_Text enterPlayerNameText;
     public TMP_InputField nameInput;
     [SerializeField] private GameObject life1, life2, life3;
@@ -32,7 +32,8 @@ public class UIManager : MonoBehaviour
     }
     void Start()
     {
-        
+        gameOverPanel.SetActive(false);
+        newHighScorePanel.SetActive(false);
     }
 
     // Update is called once per frame

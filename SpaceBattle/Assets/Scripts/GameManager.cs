@@ -55,10 +55,17 @@ public class GameManager : MonoBehaviour
     {
         UIManager.instance.finalScoreText.text = "Final Score: " + totalScore;
         UIManager.instance.gameOverPanel.SetActive(true);
-        if (totalScore >= savedHighScore)
+        if (HighScoreList.instance.highScoreElementList.Count == 5
+            )
         {
-            UIManager.instance.NewHighScorePanel.SetActive(true);
-
+            if (totalScore >= HighScoreList.instance.highScoreElementList[4].points)
+            {
+                UIManager.instance.newHighScorePanel.SetActive(true);
+            }
+        }
+        else
+        {
+          UIManager.instance.newHighScorePanel.SetActive(true);
         }
     }
     public void SavePlayerName()
@@ -66,13 +73,22 @@ public class GameManager : MonoBehaviour
         pName = UIManager.instance.nameInput.text;
     }
     public void LoadHighScorePanel()
-    {
-        // UIManager.instance.NewHighScorePanel.SetActive(false);
-
-        SavePlayerName();
-        //HighScoreList.instance.AddHighScore(pName, totalScore);      
-        HighScoreList.instance.CheckIfCanAddNewHighScore(new HighScoreElement(pName, totalScore));
+    {              
+        HIghScorePanelUI.instance.UpdateUI(HighScoreList.instance.highScoreElementList);
         highScorePanel.gameObject.SetActive(true);
+    }
+    public void HighScoreContinue()
+    {
+        SavePlayerName();
+        HighScoreList.instance.CheckIfCanAddNewHighScore(new HighScoreElement(pName, totalScore));
+        HighScoreList.instance.SaveHighScores();
+        StartCoroutine(LoadingHighScoreTableRoutine());
+    }
+    IEnumerator LoadingHighScoreTableRoutine()
+    {
+        yield return new WaitForSeconds(0.5f);
+        HighScoreList.instance.LoadHighScores();
+        LoadHighScorePanel();
     }
 
 
@@ -106,4 +122,5 @@ public class GameManager : MonoBehaviour
             loadedHSName = data.highScoreName;
         }
     }
+
 }
