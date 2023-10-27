@@ -50,6 +50,7 @@ public class HIghScorePanelUI : MonoBehaviour
             }
             //writes names and points
             Text[] texts = uiElements[i].GetComponentsInChildren<Text>();
+           // Debug.LogError(i);
             texts[0].text = element.playerName;
             texts[1].text = element.points.ToString();
 

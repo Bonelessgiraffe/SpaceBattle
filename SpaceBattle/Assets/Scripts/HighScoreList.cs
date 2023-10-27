@@ -25,10 +25,6 @@ public class HighScoreList : MonoBehaviour
         LoadHighScores();
     }
 
-    public void Start()
-    {
-        HIghScorePanelUI.instance.UpdateUI(highScoreElementList);
-    }
 
     public void AddHighScore(string name, int score)
     {
@@ -45,10 +41,11 @@ public class HighScoreList : MonoBehaviour
 
     public void CheckIfCanAddNewHighScore(HighScoreElement element)
     {
-        Debug.LogError("Check High score called");
+        Debug.LogError("Check High score called " + element.points + element.playerName);
         for ( int i = 0; i < maxCount; i++)
         {
-            if (i < highScoreElementList.Count && element.points > highScoreElementList[i].points || highScoreElementList.Count < 5 )
+            Debug.Log(i);
+            if (i >= highScoreElementList.Count ||element.points > highScoreElementList[i].points)
             {
                 Debug.LogError("Can Add");
                 highScoreElementList.Insert(i, element);
@@ -79,14 +76,12 @@ public class HighScoreList : MonoBehaviour
 
         string json = JsonUtility.ToJson(data);
 
-        File.WriteAllText(Application.persistentDataPath + "/savefile2.json", json);
-        
+        File.WriteAllText(Application.persistentDataPath + "/savefile2.json", json);        
     }
 
 
     public void LoadHighScores()
     {
-
         Debug.Log("LoadHighScores Called");
         
         string path = Application.persistentDataPath + "/savefile2.json";
@@ -96,7 +91,7 @@ public class HighScoreList : MonoBehaviour
             SaveData data = JsonUtility.FromJson<SaveData>(json);
             
             highScoreElementList = data.sDHighScoreElementList;
-            HIghScorePanelUI.instance.UpdateUI(highScoreElementList);
+          //  HIghScorePanelUI.instance.UpdateUI(highScoreElementList);
         }
         else
         {

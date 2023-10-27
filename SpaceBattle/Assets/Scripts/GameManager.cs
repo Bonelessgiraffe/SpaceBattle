@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private int totalScore;
     [SerializeField] private GameObject highScorePanel;
-    //[SerializeField] private GameObject newHighScorePanel;
+    //[SerializeField] private GameObject newHighScorePanel;q
 
     public bool gameOver;
 
