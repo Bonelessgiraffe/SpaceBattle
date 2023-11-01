@@ -7,8 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class HighScoreList : MonoBehaviour
 {
-    [SerializeField] private Transform entryCsontainer;
-    [SerializeField]  private Transform entryTemplate;
+    
 
     [SerializeField] public List<HighScoreElement> highScoreElementList; 
     int maxCount = 5;

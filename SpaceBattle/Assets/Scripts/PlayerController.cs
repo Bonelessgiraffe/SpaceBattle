@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float cannonCoolDown;
     [SerializeField] private float timeBetweenCannon = 1f;
 
+    public bool tripleShotActive;
+    public bool shieldActive;
+
     [SerializeField] private int lives;
     public int maxLives;
 
@@ -126,10 +129,6 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(ColliderOffRoutine());
     }
 
-    private void ShieldActive()
-    {
-
-    }
     private void QuickFire()
     {
         timeBetweenCannon /= 3;
@@ -140,5 +139,23 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         timeBetweenCannon *= 3;
+    }
+
+    public void TripleShotActive()
+    {
+        tripleShotActive = true;
+    }   
+    public void SpeedBoostActive()
+    {
+
+    }
+  
+    public void AddLife()
+    {
+
+    }
+    public void ShieldActive()
+    {
+        
     }
 }

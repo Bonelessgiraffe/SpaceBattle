@@ -3512,6 +3512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HighScorePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 2562872471287400069, guid: ac00468105e500d42b0a620b0c71afe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4700195196230770675, guid: ac00468105e500d42b0a620b0c71afe0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

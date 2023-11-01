@@ -22,6 +22,7 @@ public class HIghScorePanelUI : MonoBehaviour
             Debug.Log("Highscore UI Panel Script not null");
         }
         instance = this;
+        Debug.Log("High score UI instance set");
             
     }
    
