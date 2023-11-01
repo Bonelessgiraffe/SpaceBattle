@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 public class HighScoreList : MonoBehaviour
 {
     
-
     [SerializeField] public List<HighScoreElement> highScoreElementList; 
     int maxCount = 5;
 
@@ -23,7 +22,6 @@ public class HighScoreList : MonoBehaviour
         instance = this;
         LoadHighScores();
     }
-
 
     public void AddHighScore(string name, int score)
     {
@@ -90,14 +88,14 @@ public class HighScoreList : MonoBehaviour
             SaveData data = JsonUtility.FromJson<SaveData>(json);
             
             highScoreElementList = data.sDHighScoreElementList;
-          //  HIghScorePanelUI.instance.UpdateUI(highScoreElementList);
+            
         }
         else
         {
             Debug.Log("File does not exist!");
             return;
         }
-
+        HIghScorePanelUI.instance.UpdateUI(highScoreElementList);
     }
     public void RestartGame()
     {

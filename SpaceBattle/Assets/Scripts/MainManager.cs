@@ -11,7 +11,7 @@ public class MainManager : MonoBehaviour
 
     private void Awake()
     {
-        HIghScorePanelUI.instance.UpdateUI(HighScoreList.instance.highScoreElementList);
+        //HIghScorePanelUI.instance.UpdateUI(HighScoreList.instance.highScoreElementList);
     }
     public void StartGame()
     {
@@ -36,5 +36,9 @@ public class MainManager : MonoBehaviour
     public void LoadControlsScreen()
     {
         controlsPanel.gameObject.SetActive(true);
+    }
+    public void CloseControlPanel()
+    {
+        controlsPanel.gameObject.SetActive(false);
     }
 }

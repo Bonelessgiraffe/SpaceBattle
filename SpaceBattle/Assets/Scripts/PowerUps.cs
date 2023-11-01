@@ -26,21 +26,24 @@ public class PowerUps : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            AudioSource.PlayClipAtPoint(clip, transform.position);
+            Debug.Log("PowerUpHit Player");
+            //AudioSource.PlayClipAtPoint(clip, transform.position);
             PlayerController player = other.transform.GetComponent<PlayerController>();
             if (player != null)
             {
-
+               // Debug.Log("player not null");
                 switch (powerUpID)
                 {
                     case 0:
+                        Debug.Log("triple");
                         player.TripleShotActive();
                         break;
                     case 1:
+                        Debug.Log("speed");
                         player.SpeedBoostActive();
-                        break;
+                        break;                     
                     case 2:
-                        Debug.Log("shield");
+                        Debug.Log("shield");                        
                         player.ShieldActive();
                         break;
                     case 3:

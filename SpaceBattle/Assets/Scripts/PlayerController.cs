@@ -15,10 +15,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject laser;
     [SerializeField] private float cannonCoolDown;
     [SerializeField] private float timeBetweenCannon = 1f;
+    [SerializeField] private GameObject shieldPrefab;
 
     public bool tripleShotActive;
     public bool shieldActive;
+    public float speedMultiplier = 2;
 
+    private bool isShieldActive = false;
     [SerializeField] private int lives;
     public int maxLives;
 
@@ -39,6 +42,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         lives = 3;
+        shieldPrefab.SetActive(false);
     }
 
     // Update is called once per frame
@@ -94,6 +98,12 @@ public class PlayerController : MonoBehaviour
     }
     private void TakeDamage()
     {
+        if (isShieldActive == true)
+        {
+            isShieldActive = false;
+            shieldPrefab.SetActive(false);
+            return;
+        }
         lives--;
         UIManager.instance.UpdateLives(lives);
 
@@ -109,6 +119,12 @@ public class PlayerController : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
+            if (isShieldActive == true)
+            {
+                isShieldActive = false;
+                shieldPrefab.SetActive(false);
+                return;
+            }
             Debug.Log("Enemy hit Player");
             TakeDamage();
             Destroy(other.gameObject);
@@ -144,18 +160,29 @@ public class PlayerController : MonoBehaviour
     public void TripleShotActive()
     {
         tripleShotActive = true;
-    }   
+    }
     public void SpeedBoostActive()
     {
-
+       
+        speed *= speedMultiplier;
+        Debug.Log("Speed Boost Collected");
+        StartCoroutine(SpeedBoostPowerDownRoutine());
     }
-  
+
+    IEnumerator SpeedBoostPowerDownRoutine()
+    {
+        yield return new WaitForSeconds(5f);
+        //isSpeedBoostCollected = false;
+        speed /= speedMultiplier;
+    }
+
     public void AddLife()
     {
 
     }
     public void ShieldActive()
     {
-        
+        isShieldActive = true;
+        shieldPrefab.SetActive(true);
     }
 }
