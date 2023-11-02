@@ -5,12 +5,19 @@ using UnityEngine;
 public class Laser : MonoBehaviour
 {
     private float speed = 8;
-   
+    [SerializeField] private bool isEnemyLaser;
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.up * speed * Time.deltaTime);
+        if (isEnemyLaser)
+        {
+            transform.Translate(Vector3.down * speed * Time.deltaTime);
+        }
+        else
+        {
+            transform.Translate(Vector3.up * speed * Time.deltaTime);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -21,6 +28,16 @@ public class Laser : MonoBehaviour
             Enemy hit = other.GetComponent<Enemy>();
             hit.TakeDamage();
             Destroy(this.gameObject);
+        }
+
+        if (isEnemyLaser )
+        {
+            if ( other.name == "Player")
+            {
+                PlayerController player = other.GetComponent<PlayerController>();
+
+                player.TakeDamage();
+            }
         }
     }
 }

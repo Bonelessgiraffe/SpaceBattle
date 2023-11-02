@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
         lives = 3;
         shieldPrefab.SetActive(false);
         trans = GetComponent<Transform>();
+        laserAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -111,7 +112,7 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-    private void TakeDamage()
+    public void TakeDamage()
     {
         Instantiate(impacts[Random.Range(0, 2)], transform.position, Quaternion.identity, trans);
         if (isShieldActive == true)

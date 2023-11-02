@@ -13,7 +13,11 @@ public class Enemy : MonoBehaviour
     
     [SerializeField] private int scoreValue;
     [SerializeField] private GameObject explosionPrefab;
+    
     [SerializeField] private GameObject[] impacts;
+    [SerializeField] private float canFire;
+    private float fireRate = 2;
+
     private Transform enemyTransform;
 
     // Start is called before the first frame update
@@ -22,12 +26,24 @@ public class Enemy : MonoBehaviour
         speed = Random.Range(2, 5);
         cannonCoolDown = Random.Range(2, 4);
         enemyTransform = GetComponent<Transform>();
+
+        canFire = Random.Range(0.5f, 2.5f);
     }
 
     // Update is called once per frame
     void Update()
     {
+
         Movement();
+
+        if (Time.time > canFire)
+        {
+            if (Random.Range(0, 10) > 6)
+            {
+                FireLaser();
+                canFire = Time.time + fireRate;
+            }
+        }
     }
     public void Movement()
     {
@@ -50,8 +66,7 @@ public class Enemy : MonoBehaviour
             this.gameObject.SetActive(false);
             speed = 0.5f;
             Destroy(this.gameObject, 2f);
-            GameManager.instance.UpdateScore(scoreValue);
-            
+            GameManager.instance.UpdateScore(scoreValue);            
         }
     }
    
@@ -64,7 +79,10 @@ public class Enemy : MonoBehaviour
     {
         if (other.name == "Player")
         {
-            Destroy(this.gameObject);
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            this.gameObject.SetActive(false);
+            speed = 0.5f;
+            Destroy(this.gameObject, 2f);
         }
     }
 }

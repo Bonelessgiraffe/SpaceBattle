@@ -80,8 +80,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  health: 2
-  laserPrefab: {fileID: 33266968995107066, guid: 621fac21e6515db4dbddf37a179527c8, type: 3}
+  health: 1
+  laserPrefab: {fileID: 33266968995107066, guid: 0ffb83c02dbea66458f9384e737ad4f4, type: 3}
   cannonTransform: {fileID: 8344210740056881429}
   scoreValue: 5
   explosionPrefab: {fileID: 5070530106292032653, guid: 45d5de30588616342bfeaf26288fe051, type: 3}
