@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -89,6 +90,15 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         HighScoreList.instance.LoadHighScores();
         LoadHighScorePanel();
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 
 

@@ -97,10 +97,5 @@ public class HighScoreList : MonoBehaviour
         }
         HIghScorePanelUI.instance.UpdateUI(highScoreElementList);
     }
-    public void RestartGame()
-    {
-        SceneManager.LoadScene(0);
-    }
-
-    
+   
 }

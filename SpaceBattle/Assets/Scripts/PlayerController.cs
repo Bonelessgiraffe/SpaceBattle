@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float cannonCoolDown;
     [SerializeField] private float timeBetweenCannon = 1f;
     [SerializeField] private GameObject shieldPrefab;
+    [SerializeField] private GameObject[] impacts;
+    private Transform trans;
+    private AudioSource laserAudio;
 
     public bool tripleShotActive;
     public float speedMultiplier = 2;
@@ -42,6 +45,7 @@ public class PlayerController : MonoBehaviour
     {
         lives = 3;
         shieldPrefab.SetActive(false);
+        trans = GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -91,6 +95,7 @@ public class PlayerController : MonoBehaviour
 
         if (cannonCoolDown < 0)
         {
+            laserAudio.Play();
             if (tripleShotActive == true)
             {
                 Instantiate(laser, rCannon.position, Quaternion.identity);
@@ -108,6 +113,7 @@ public class PlayerController : MonoBehaviour
     }
     private void TakeDamage()
     {
+        Instantiate(impacts[Random.Range(0, 2)], transform.position, Quaternion.identity, trans);
         if (isShieldActive == true)
         {
             isShieldActive = false;

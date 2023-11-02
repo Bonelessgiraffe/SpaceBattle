@@ -226,5 +226,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  powerUpID: 3
+  powerUpID: 2
   clip: {fileID: 0}

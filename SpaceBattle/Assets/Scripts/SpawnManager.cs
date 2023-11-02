@@ -10,7 +10,8 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] private GameObject currentEnemy;
     [SerializeField] private float currentTimeBetweenSpawns =3;
     public bool gameOver;
-
+    public float newRoundTime = 20f;
+    public float spawnFrequency = 2;
     public static SpawnManager instance;
 
 
@@ -33,7 +34,11 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+      if (Time.time > newRoundTime)
+        {
+            spawnFrequency -= 0.3f;
+            newRoundTime += 20f;
+        }
     }
 
     IEnumerator SpawnRoutine()
@@ -44,7 +49,7 @@ public class SpawnManager : MonoBehaviour
             Vector3 spawnPos = new Vector3(Random.Range(-8, 8), 9, 0);
             Instantiate(Enemies[Random.Range(0, Enemies.Length)], spawnPos, Quaternion.identity);
             //Debug.Log("Enemy spawned");
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(spawnFrequency);
         }       
     }
 

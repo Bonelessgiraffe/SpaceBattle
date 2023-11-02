@@ -56,6 +56,38 @@ PrefabInstance:
       propertyPath: health
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
+      propertyPath: impact1
+      value: 
+      objectReference: {fileID: 4794043405585894037, guid: 37138c0c33167b04fa1fb90b7f5a794f, type: 3}
+    - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
+      propertyPath: impact2
+      value: 
+      objectReference: {fileID: 6192724089161036641, guid: e17d9a3f04750764c8c0a7a0461e4c3b, type: 3}
+    - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
+      propertyPath: impact3
+      value: 
+      objectReference: {fileID: 8038344524183138613, guid: 0277167a12290af47801444830a2be97, type: 3}
+    - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
+      propertyPath: explosionPrefab
+      value: 
+      objectReference: {fileID: 5070530106292032653, guid: 45d5de30588616342bfeaf26288fe051, type: 3}
+    - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
+      propertyPath: impacts.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
+      propertyPath: impacts.Array.data[0]
+      value: 
+      objectReference: {fileID: 4794043405585894037, guid: 37138c0c33167b04fa1fb90b7f5a794f, type: 3}
+    - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
+      propertyPath: impacts.Array.data[1]
+      value: 
+      objectReference: {fileID: 6192724089161036641, guid: e17d9a3f04750764c8c0a7a0461e4c3b, type: 3}
+    - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
+      propertyPath: impacts.Array.data[2]
+      value: 
+      objectReference: {fileID: 8038344524183138613, guid: 0277167a12290af47801444830a2be97, type: 3}
     - target: {fileID: 4056157236048870002, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
       propertyPath: m_IsActive
       value: 0
