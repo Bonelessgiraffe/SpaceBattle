@@ -15,7 +15,7 @@ public class Laser : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.name);
+       
         if (other.tag  == "Enemy")
         {
             Enemy hit = other.GetComponent<Enemy>();

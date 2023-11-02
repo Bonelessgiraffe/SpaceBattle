@@ -26,7 +26,7 @@ public class PowerUps : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("PowerUpHit Player");
+            
             //AudioSource.PlayClipAtPoint(clip, transform.position);
             PlayerController player = other.transform.GetComponent<PlayerController>();
             if (player != null)

@@ -11,14 +11,13 @@ public class PlayerController : MonoBehaviour
     private float xBoundary = 9;
     private float yBoundary = 3.5f;
     [SerializeField] private float speed = 3f;
-    [SerializeField] private Transform rCannon, lCannon;
+    [SerializeField] private Transform rCannon, lCannon, mCannon;
     [SerializeField] private GameObject laser;
     [SerializeField] private float cannonCoolDown;
     [SerializeField] private float timeBetweenCannon = 1f;
     [SerializeField] private GameObject shieldPrefab;
 
     public bool tripleShotActive;
-    public bool shieldActive;
     public float speedMultiplier = 2;
 
     private bool isShieldActive = false;
@@ -88,10 +87,21 @@ public class PlayerController : MonoBehaviour
 
     private void FireLasers()
     {
+        
+
         if (cannonCoolDown < 0)
         {
-            Instantiate(laser, rCannon.position, Quaternion.identity);
-            Instantiate(laser, lCannon.position, Quaternion.identity);
+            if (tripleShotActive == true)
+            {
+                Instantiate(laser, rCannon.position, Quaternion.identity);
+                Instantiate(laser, lCannon.position, Quaternion.identity);
+                Instantiate(laser, mCannon.position, Quaternion.identity);
+            }
+            else
+            {
+                Instantiate(laser, mCannon.position, Quaternion.identity);
+            }
+            
             cannonCoolDown = timeBetweenCannon;
         }
 
@@ -127,7 +137,7 @@ public class PlayerController : MonoBehaviour
             }
             Debug.Log("Enemy hit Player");
             TakeDamage();
-            Destroy(other.gameObject);
+           // Destroy(other.gameObject);
             hasBeenHitThisFrame = true;
             ColliderOff();
         }
@@ -160,12 +170,18 @@ public class PlayerController : MonoBehaviour
     public void TripleShotActive()
     {
         tripleShotActive = true;
+        StartCoroutine(TripleShotPowerDownRoutine());
+    }
+    IEnumerator TripleShotPowerDownRoutine()
+    {
+        yield return new WaitForSeconds(5f);
+        tripleShotActive = false;
+
     }
     public void SpeedBoostActive()
     {
-       
+        Debug.Log("SpeedBoost Active called");
         speed *= speedMultiplier;
-        Debug.Log("Speed Boost Collected");
         StartCoroutine(SpeedBoostPowerDownRoutine());
     }
 

@@ -47,4 +47,12 @@ public class Enemy : MonoBehaviour
     {
         Instantiate(laserPrefab, cannonTransform.position, Quaternion.identity);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.name == "Player")
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }
