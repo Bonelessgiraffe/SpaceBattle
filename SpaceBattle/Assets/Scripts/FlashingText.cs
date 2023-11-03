@@ -24,20 +24,31 @@ public class FlashingText : MonoBehaviour
     {
         StartCoroutine(FlashingRoutine());
     }
-
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
         
     }
+    // Update is called once per frame
+
 
     IEnumerator FlashingRoutine()
     {
+
+        int flashCount = 3; // The number of times you want it to flash.
+
+        for (int i = 0; i < flashCount; i++)
+        {
+            highScoreText.gameObject.SetActive(true);
+            yield return new WaitForSeconds(1);
+            highScoreText.gameObject.SetActive(false);
+            yield return new WaitForSeconds(0.5f);
+        }
+        /*
         Debug.Log("Flashing Routine started");
         highScoreText.gameObject.SetActive(true);
         yield return new WaitForSeconds(1);
         highScoreText.gameObject.SetActive(false);
         yield return new WaitForSeconds(0.5f);
-        StartCoroutine(FlashingRoutine());
+        StartCoroutine(FlashingRoutine());*/
     }
 }

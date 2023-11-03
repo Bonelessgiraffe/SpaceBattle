@@ -17,6 +17,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject[] impacts;
     [SerializeField] private float canFire;
     private float fireRate = 2;
+    public int chance;
+    private bool hasGuns;
 
     private Transform enemyTransform;
 
@@ -28,22 +30,26 @@ public class Enemy : MonoBehaviour
         enemyTransform = GetComponent<Transform>();
 
         canFire = Random.Range(0.5f, 2.5f);
+        if (Random.Range(0, 10) > 6 )
+        {
+            hasGuns = true;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        Movement();
-
         if (Time.time > canFire)
         {
-            if (Random.Range(0, 10) > 6)
+             chance = Random.Range(0, 10);
+            if (hasGuns)
             {
                 FireLaser();
                 canFire = Time.time + fireRate;
             }
         }
+        Movement();
     }
     public void Movement()
     {

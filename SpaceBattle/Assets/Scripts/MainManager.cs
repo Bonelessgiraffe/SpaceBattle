@@ -41,4 +41,5 @@ public class MainManager : MonoBehaviour
     {
         controlsPanel.gameObject.SetActive(false);
     }
+   
 }

@@ -18,6 +18,8 @@ public class Laser : MonoBehaviour
         {
             transform.Translate(Vector3.up * speed * Time.deltaTime);
         }
+
+        CheckPosition();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -38,6 +40,15 @@ public class Laser : MonoBehaviour
 
                 player.TakeDamage();
             }
+        }
+    }
+
+
+    public void CheckPosition()
+    {
+        if (transform.position.y > 9 || transform.position.y < -8)
+        {
+            Destroy(this.gameObject);
         }
     }
 }

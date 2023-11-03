@@ -20,6 +20,11 @@ public class HighScoreList : MonoBehaviour
             Debug.Log("Highscore list error");
         }
         instance = this;
+       
+    }
+
+    public void Start()
+    {
         LoadHighScores();
     }
 
