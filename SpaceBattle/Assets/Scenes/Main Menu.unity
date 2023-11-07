@@ -779,6 +779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HighScorePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 2562872471287400069, guid: ac00468105e500d42b0a620b0c71afe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4700195196230770675, guid: ac00468105e500d42b0a620b0c71afe0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2315,6 +2319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highScorePanel: {fileID: 777051485}
   controlsPanel: {fileID: 932508362}
+  mainMenuPanel: {fileID: 2114473567}
 --- !u!4 &1603023831
 Transform:
   m_ObjectHideFlags: 0
@@ -2683,6 +2688,8 @@ MonoBehaviour:
   highScoreUIElementPrefab: {fileID: 4325375095478800718, guid: 8c4124f7ccc1853408790c8a61ee79ae, type: 3}
   ElementParent: {fileID: 777051487}
   uiElements: []
+  text: {fileID: 0}
+  tefxt: {fileID: 0}
 --- !u!1 &1835321438
 GameObject:
   m_ObjectHideFlags: 0
@@ -3192,7 +3199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2114473568
 RectTransform:
   m_ObjectHideFlags: 0

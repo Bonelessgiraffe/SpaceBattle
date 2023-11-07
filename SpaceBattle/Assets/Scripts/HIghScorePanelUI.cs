@@ -11,6 +11,8 @@ public class HIghScorePanelUI : MonoBehaviour
     [SerializeField] private Transform ElementParent;
 
     [SerializeField] List<GameObject> uiElements = new List<GameObject>();
+    [SerializeField] private TextMeshPro text;  
+     public TextMeshProUGUI tefxt;
 
     public static HIghScorePanelUI instance;
     // Start is called before the first frame update
@@ -30,6 +32,7 @@ public class HIghScorePanelUI : MonoBehaviour
     public void ClosePanel()
     {
         panel.SetActive(false);
+        MainManager.instance.OpenMainMenuPanel();
     }
 
     public void UpdateUI(List<HighScoreElement> list)
@@ -50,11 +53,11 @@ public class HIghScorePanelUI : MonoBehaviour
                 }
             }
             //writes names and points
-            Text[] texts = uiElements[i].GetComponentsInChildren<Text>();
+            TextMeshProUGUI[] texts = uiElements[i].GetComponentsInChildren<TextMeshProUGUI>();
            // Debug.LogError(i);
             texts[0].text = element.playerName;
             texts[1].text = element.points.ToString();
-
+            
             
         }
     }
