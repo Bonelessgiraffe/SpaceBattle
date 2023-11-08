@@ -13,8 +13,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 3f;
     [SerializeField] private Transform rCannon, lCannon, mCannon;
     [SerializeField] private GameObject laser;
+
     [SerializeField] private float cannonCoolDown;
     [SerializeField] private float timeBetweenCannon = 1f;
+    public bool isCooling;
+
     [SerializeField] private GameObject shieldPrefab;
     [SerializeField] private GameObject[] impacts;
     private Transform trans;
@@ -57,6 +60,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             FireLasers();
+           
         }
     }
     void CalculatePlayerMovement()
@@ -96,19 +100,26 @@ public class PlayerController : MonoBehaviour
 
         if (cannonCoolDown < 0)
         {
+           
             laserAudio.Play();
             if (tripleShotActive == true)
             {
                 Instantiate(laser, rCannon.position, Quaternion.identity);
                 Instantiate(laser, lCannon.position, Quaternion.identity);
                 Instantiate(laser, mCannon.position, Quaternion.identity);
+                UIManager.instance.isCoolingDown = true;
             }
             else
             {
                 Instantiate(laser, mCannon.position, Quaternion.identity);
+                UIManager.instance.isCoolingDown = true;
             }
             
             cannonCoolDown = timeBetweenCannon;
+        }
+        else
+        {
+            UIManager.instance.isCoolingDown = false;
         }
 
     }

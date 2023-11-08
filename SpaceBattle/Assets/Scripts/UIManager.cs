@@ -16,6 +16,12 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject life1, life2, life3;
     private int maxLives;
 
+    [SerializeField] private Image cannonIcon;
+    public float coolDownTime = 2;
+    public float coolDownTimer = 2;
+    public KeyCode cannon;
+    public bool isCoolingDown = false;
+
     
     // Start is called before the first frame update
 
@@ -39,7 +45,11 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        maxLives = PlayerController.instance.maxLives;
+        maxLives = PlayerController.instance.maxLives; 
+        if (isCoolingDown == true)
+        {
+            UpdateCannonCoolDownIcon();
+        }
 
     }
     public void UpdateLives(int lives)
@@ -72,5 +82,38 @@ public class UIManager : MonoBehaviour
     public void UpdateScoreUI(int score)
     {
         scoreText.text = "Score: " + score;
+    }
+
+    public void UpdateCannonCoolDownIcon()
+    {
+        Debug.Log("UpdateCannonCoolDownIcon() Called");
+        
+        coolDownTimer -= Time.deltaTime;
+
+        if (coolDownTimer <= 0f)
+        {
+            isCoolingDown = false;
+            cannonIcon.fillAmount = 1;
+        }
+        else
+        {
+            cannonIcon.fillAmount = coolDownTimer / coolDownTime;
+        }
+
+      /*  if ( isCoolingDown == false)
+        {
+            isCoolingDown = true;
+            cannonIcon.fillAmount = Mathf.Lerp(0, 1, 1);
+           
+        }
+        if (isCoolingDown)
+        {
+            cannonIcon.fillAmount -= 1 / coolDown * Time.deltaTime;
+            if (cannonIcon.fillAmount <= 0)
+            {
+                cannonIcon.fillAmount = 0;
+                isCoolingDown = false;
+            }
+        }*/
     }
 }
