@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour
             if (totalScore >= HighScoreList.instance.highScoreElementList[4].points)
             {
                 UIManager.instance.newHighScorePanel.SetActive(true);
+                FlashingText.instance.StartFlashing();
             }
         }
         else

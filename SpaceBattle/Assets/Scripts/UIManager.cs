@@ -48,7 +48,7 @@ public class UIManager : MonoBehaviour
         maxLives = PlayerController.instance.maxLives; 
         if (isCoolingDown == true)
         {
-            UpdateCannonCoolDownIcon();
+           // UpdateCannonCoolDownIcon();
         }
 
     }
@@ -84,7 +84,7 @@ public class UIManager : MonoBehaviour
         scoreText.text = "Score: " + score;
     }
 
-    public void UpdateCannonCoolDownIcon()
+  /*  public void UpdateCannonCoolDownIcon()
     {
         Debug.Log("UpdateCannonCoolDownIcon() Called");
         
@@ -100,7 +100,7 @@ public class UIManager : MonoBehaviour
             cannonIcon.fillAmount = coolDownTimer / coolDownTime;
         }
 
-      /*  if ( isCoolingDown == false)
+        if ( isCoolingDown == false)
         {
             isCoolingDown = true;
             cannonIcon.fillAmount = Mathf.Lerp(0, 1, 1);
@@ -114,6 +114,6 @@ public class UIManager : MonoBehaviour
                 cannonIcon.fillAmount = 0;
                 isCoolingDown = false;
             }
-        }*/
-    }
+        }
+    } */
 }

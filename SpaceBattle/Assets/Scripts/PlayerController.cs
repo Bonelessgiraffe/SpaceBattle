@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,9 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform rCannon, lCannon, mCannon;
     [SerializeField] private GameObject laser;
 
-    [SerializeField] private float cannonCoolDown;
-    [SerializeField] private float timeBetweenCannon = 1f;
-    public bool isCooling;
+   
 
     [SerializeField] private GameObject shieldPrefab;
     [SerializeField] private GameObject[] impacts;
@@ -32,6 +31,13 @@ public class PlayerController : MonoBehaviour
 
     private bool hasBeenHitThisFrame = false;
     [SerializeField] private Collider2D col;
+
+
+    [SerializeField] private Image laserIcon;
+    [SerializeField] private float cannonCoolDown;
+    [SerializeField] private float timeBetweenCannonFire = 1f;
+    public bool isCooling;
+
 
     public static PlayerController instance;
 
@@ -55,13 +61,14 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        cannonCoolDown -= Time.deltaTime;
+       
         CalculatePlayerMovement();
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            FireLasers();
-           
+            FireLasers();           
         }
+        cannonCoolDown += Time.deltaTime;
+        laserIcon.fillAmount = cannonCoolDown;
     }
     void CalculatePlayerMovement()
     {
@@ -96,9 +103,9 @@ public class PlayerController : MonoBehaviour
 
     private void FireLasers()
     {
-        
+        laserIcon.fillAmount = 0;
 
-        if (cannonCoolDown < 0)
+        if (cannonCoolDown > timeBetweenCannonFire)
         {
            
             laserAudio.Play();
@@ -115,7 +122,8 @@ public class PlayerController : MonoBehaviour
                 UIManager.instance.isCoolingDown = true;
             }
             
-            cannonCoolDown = timeBetweenCannon;
+            cannonCoolDown = 0;
+            
         }
         else
         {
@@ -123,6 +131,12 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
+    public void StartLaserCoolDown()
+    {
+
+    }
+
     public void TakeDamage()
     {
         Instantiate(impacts[Random.Range(0, 2)], transform.position, Quaternion.identity, trans);
@@ -175,14 +189,14 @@ public class PlayerController : MonoBehaviour
 
     private void QuickFire()
     {
-        timeBetweenCannon /= 3;
+        timeBetweenCannonFire /= 3;
         StartCoroutine(QuickFireCoolDownRoutine());
     }
 
     IEnumerator QuickFireCoolDownRoutine()
     {
         yield return new WaitForSeconds(5);
-        timeBetweenCannon *= 3;
+        timeBetweenCannonFire *= 3;
     }
 
     public void TripleShotActive()
