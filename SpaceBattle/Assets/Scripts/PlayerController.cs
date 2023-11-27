@@ -9,18 +9,24 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
 
+    [SerializeField] private GameObject sprite;
+
     private float xBoundary = 9;
     private float yBoundary = 3.5f;
     [SerializeField] private float speed = 3f;
     [SerializeField] private Transform rCannon, lCannon, mCannon;
     [SerializeField] private GameObject laser;
+    [SerializeField] private GameObject explosion;
 
    
 
     [SerializeField] private GameObject shieldPrefab;
     [SerializeField] private GameObject[] impacts;
     private Transform trans;
-    private AudioSource laserAudio;
+
+    [SerializeField] private AudioSource laserAudio;
+    [SerializeField] private AudioSource damageNoise;
+    public AudioSource powerUpSound;
 
     public bool tripleShotActive;
     public float speedMultiplier = 2;
@@ -37,6 +43,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float cannonCoolDown;
     [SerializeField] private float timeBetweenCannonFire = 1f;
     public bool isCooling;
+    private bool isDead;
+
+    [SerializeField] private GameObject PlayerDamageL, PlayerDamageR;
 
 
     public static PlayerController instance;
@@ -55,17 +64,20 @@ public class PlayerController : MonoBehaviour
         lives = 3;
         shieldPrefab.SetActive(false);
         trans = GetComponent<Transform>();
-        laserAudio = GetComponent<AudioSource>();
+
+        isDead = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-        CalculatePlayerMovement();
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!isDead)
         {
-            FireLasers();           
+            CalculatePlayerMovement();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                FireLasers();
+            }
         }
         cannonCoolDown += Time.deltaTime; 
        // laserIcon.fillAmount = cannonCoolDown; //
@@ -142,7 +154,7 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage()
     {
-        Instantiate(impacts[Random.Range(0, 2)], transform.position, Quaternion.identity, trans);
+       
         if (isShieldActive == true)
         {
             isShieldActive = false;
@@ -151,13 +163,38 @@ public class PlayerController : MonoBehaviour
         }
         lives--;
         UIManager.instance.UpdateLives(lives);
-
+        Instantiate(impacts[Random.Range(0, 2)], transform.position, Quaternion.identity, trans);
+        damageNoise.Play();
         if (lives <= 0)
         {
-            Destroy(this.gameObject);
-            GameManager.instance.gameOver = true;
-            SpawnManager.instance.gameOver = true;
+            isDead = true;
+            Destroy(this.gameObject, 2.5f);
+            sprite.gameObject.SetActive(false);
+            PlayerDamageR.SetActive(false); 
+            PlayerDamageL.SetActive(false);
+            Instantiate(explosion, transform.position, Quaternion.identity);
+            StartCoroutine(DeathSequence());
+           
         }
+        if (lives == 2)
+        {
+            PlayerDamageL.SetActive(true);
+        }
+        if (lives == 1)
+        {
+            PlayerDamageR.SetActive(true);
+        }
+    }
+
+    IEnumerator DeathSequence()
+    {
+        
+        yield return new WaitForSeconds(1f);
+
+     
+        GameManager.instance.gameOver = true;
+        SpawnManager.instance.gameOver = true;
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -206,6 +243,7 @@ public class PlayerController : MonoBehaviour
     {
         tripleShotActive = true;
         StartCoroutine(TripleShotPowerDownRoutine());
+
     }
     IEnumerator TripleShotPowerDownRoutine()
     {

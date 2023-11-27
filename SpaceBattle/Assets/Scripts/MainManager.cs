@@ -20,12 +20,16 @@ public class MainManager : MonoBehaviour
         instance = this;
         //HIghScorePanelUI.instance.UpdateUI(HighScoreList.instance.highScoreElementList);
     }
-    public void StartGame()
+    private void Start()
     {
-        SceneManager.LoadScene(1);
         highScorePanel.gameObject.SetActive(false);
         controlsPanel.gameObject.SetActive(false);
         mainMenuPanel.gameObject.SetActive(true);
+
+    }
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
         
     }
     public void CloseMainMenuPanel()
@@ -53,10 +57,12 @@ public class MainManager : MonoBehaviour
     public void LoadControlsScreen()
     {
         controlsPanel.gameObject.SetActive(true);
+        mainMenuPanel.SetActive(false);
     }
     public void CloseControlPanel()
     {
         controlsPanel.gameObject.SetActive(false);
+        mainMenuPanel.SetActive(true);
     }
    
 }

@@ -69,6 +69,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8038344524183138613, guid: 0277167a12290af47801444830a2be97, type: 3}
     - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
+      propertyPath: laserSound
+      value: 
+      objectReference: {fileID: 3623160909688160306}
+    - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
       propertyPath: laserPrefab
       value: 
       objectReference: {fileID: 33266968995107066, guid: 0ffb83c02dbea66458f9384e737ad4f4, type: 3}
@@ -76,10 +80,6 @@ PrefabInstance:
       propertyPath: explosionPrefab
       value: 
       objectReference: {fileID: 5070530106292032653, guid: 45d5de30588616342bfeaf26288fe051, type: 3}
-    - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
-      propertyPath: impacts.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 563868438983365306, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
       propertyPath: impacts.Array.data[0]
       value: 
@@ -104,112 +104,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyRed
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5765236425024958258, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4337931242904214211}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
---- !u!1 &2814209182077649211 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5765236425024958258, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
+--- !u!82 &3623160909688160306 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4991151714194927163, guid: 0c4077dcc2ce59b44989a77c0c85f987, type: 3}
   m_PrefabInstance: {fileID: 8578283808609070601}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &4337931242904214211
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2814209182077649211}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4

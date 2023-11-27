@@ -6,6 +6,21 @@ public class Laser : MonoBehaviour
 {
     private float speed = 8;
     [SerializeField] private bool isEnemyLaser;
+  //  [SerializeField] private AudioSource laserNoise;
+   
+
+    private void Start()
+    {
+       /* if (laserNoise != null)
+        {
+            laserNoise.Play();
+        }
+        else
+        {
+            Debug.Log("NUll af apparently");
+        }
+       */
+    }
 
     // Update is called once per frame
     void Update()
@@ -24,12 +39,14 @@ public class Laser : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-       
-        if (other.tag  == "Enemy")
+        if (!isEnemyLaser)
         {
-            Enemy hit = other.GetComponent<Enemy>();
-            hit.TakeDamage();
-            Destroy(this.gameObject);
+            if (other.tag == "Enemy")
+            {
+                Enemy hit = other.GetComponent<Enemy>();
+                hit.TakeDamage();
+                Destroy(this.gameObject);
+            }
         }
 
         if (isEnemyLaser )

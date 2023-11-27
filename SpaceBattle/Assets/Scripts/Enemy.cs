@@ -17,48 +17,55 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject[] impacts;
     [SerializeField] private float canFire;
     private float fireRate = 2;
-    public int chance;
-    private bool hasGuns;
+   
+    
+    public bool hasGuns;
+    [SerializeField] private AudioSource laserSound;
 
-    private Transform enemyTransform;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        speed = Random.Range(2, 5);
-        cannonCoolDown = Random.Range(2, 4);
-        enemyTransform = GetComponent<Transform>();
+        speed = Random.Range(2, 5);   
+        canFire = Random.Range(0.75f, 2f);
 
-        canFire = Random.Range(0.5f, 2.5f);
-        if (Random.Range(0, 10) > 6 )
+        if (Random.Range(0, 10) > 4 )
         {
             hasGuns = true;
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    void CannonFireCalculation()
     {
-
-        if (Time.time > canFire)
+        canFire -= Time.deltaTime;
+        if (canFire < 0)
         {
-             chance = Random.Range(0, 10);
+
             if (hasGuns)
             {
                 FireLaser();
-                canFire = Time.time + fireRate;
+                canFire = fireRate;
             }
+            
         }
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        CannonFireCalculation();
+       
         Movement();
     }
     public void Movement()
     {
         transform.Translate(Vector3.down * speed *Time.deltaTime);
-        if (transform.position.y < -12)
+        if (transform.position.y < -7.25)
         {
             Destroy(this.gameObject);
         }
     }
+
     public void TakeDamage()
     {
         health--;
@@ -78,7 +85,9 @@ public class Enemy : MonoBehaviour
    
     private void FireLaser()
     {
+        Debug.Log("ENEMY FIRELASER");
         Instantiate(laserPrefab, cannonTransform.position, Quaternion.identity);
+        laserSound.Play();
 
     }
 

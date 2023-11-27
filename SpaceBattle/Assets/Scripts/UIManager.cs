@@ -89,7 +89,7 @@ public class UIManager : MonoBehaviour
     public void UpdateCannonCoolDownIcon()
     {
         
-        Debug.Log("UpdateCannonCoolDownIcon() Called");
+        //Debug.Log("UpdateCannonCoolDownIcon() Called");
         cannonIcon.fillAmount = coolDownTimer;
         coolDownTimer += Time.deltaTime;
         cannonIcon.fillAmount = coolDownTimer;

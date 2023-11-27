@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 563868438983365306}
   - component: {fileID: 3016757029416620704}
   - component: {fileID: 161266725989286105}
-  - component: {fileID: -6858240323075750810}
+  - component: {fileID: 4991151714194927163}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Enemy
@@ -91,7 +91,7 @@ MonoBehaviour:
   - {fileID: 6192724089161036641, guid: e17d9a3f04750764c8c0a7a0461e4c3b, type: 3}
   - {fileID: 8038344524183138613, guid: 0277167a12290af47801444830a2be97, type: 3}
   canFire: 0
-  chance: 0
+  laserSound: {fileID: 4991151714194927163}
 --- !u!61 &3016757029416620704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -182,7 +182,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.51623654, y: 1.2808948}
   m_EdgeRadius: 0
---- !u!82 &-6858240323075750810
+--- !u!82 &4991151714194927163
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -192,8 +192,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 75676f361bdfeaf41a46623e95df3dbc, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

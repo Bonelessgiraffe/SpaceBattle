@@ -8,7 +8,7 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] private GameObject[] Enemies;
     [SerializeField] private GameObject[] powerUps;
     [SerializeField] private GameObject currentEnemy;
-    [SerializeField] private float currentTimeBetweenSpawns =3;
+   // [SerializeField] private float currentTimeBetweenSpawns = 3;
     public bool gameOver;
     public float newRoundTime = 20f;
     public float spawnFrequency = 2;
@@ -47,7 +47,7 @@ public class SpawnManager : MonoBehaviour
         {
             //Debug.Log("Starting Spawn Routine");
             Vector3 spawnPos = new Vector3(Random.Range(-8, 8), 9, 0);
-            Instantiate(Enemies[Random.Range(0, Enemies.Length)], spawnPos, Quaternion.identity);
+            Instantiate(Enemies[Random.Range(0,3)], spawnPos, Quaternion.identity);
             //Debug.Log("Enemy spawned");
             yield return new WaitForSeconds(spawnFrequency);
         }       
@@ -57,7 +57,7 @@ public class SpawnManager : MonoBehaviour
     {
         while (gameOver == false)
         {
-            int randomPowerUp = Random.Range(0, 2);
+            int randomPowerUp = Random.Range(0, 3);
             Vector3 powerUpSpawnPos = new Vector3(Random.Range(-9, 9), 7.4f, 0);
             yield return new WaitForSeconds(Random.Range(4,5));
             Instantiate(powerUps[randomPowerUp], powerUpSpawnPos, Quaternion.identity);

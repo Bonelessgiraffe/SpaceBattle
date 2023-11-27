@@ -8,7 +8,7 @@ public class PowerUps : MonoBehaviour
     [SerializeField] private int powerUpID;
     //ID for powerups
 
-    [SerializeField] private AudioClip clip;
+   
 
     void Update()
     {
@@ -26,8 +26,9 @@ public class PowerUps : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            
-            //AudioSource.PlayClipAtPoint(clip, transform.position);
+            PlayerController.instance.powerUpSound.Play();
+
+
             PlayerController player = other.transform.GetComponent<PlayerController>();
             if (player != null)
             {
