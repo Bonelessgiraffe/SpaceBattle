@@ -18,7 +18,7 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private Image cannonIcon;
     public float coolDownTime = 2;
-    public float coolDownTimer = 2;
+    public float coolDownTimer;
     public KeyCode cannon;
     public bool isCoolingDown = false;
 
@@ -46,10 +46,12 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         maxLives = PlayerController.instance.maxLives; 
+  
         if (isCoolingDown == true)
         {
-           // UpdateCannonCoolDownIcon();
+            UpdateCannonCoolDownIcon();
         }
+        
 
     }
     public void UpdateLives(int lives)
@@ -84,36 +86,24 @@ public class UIManager : MonoBehaviour
         scoreText.text = "Score: " + score;
     }
 
-  /*  public void UpdateCannonCoolDownIcon()
+    public void UpdateCannonCoolDownIcon()
     {
-        Debug.Log("UpdateCannonCoolDownIcon() Called");
         
-        coolDownTimer -= Time.deltaTime;
-
-        if (coolDownTimer <= 0f)
+        Debug.Log("UpdateCannonCoolDownIcon() Called");
+        cannonIcon.fillAmount = coolDownTimer;
+        coolDownTimer += Time.deltaTime;
+        cannonIcon.fillAmount = coolDownTimer;
+        if ( cannonIcon.fillAmount == 1)
         {
             isCoolingDown = false;
-            cannonIcon.fillAmount = 1;
         }
-        else
-        {
-            cannonIcon.fillAmount = coolDownTimer / coolDownTime;
-        }
+    } 
 
-        if ( isCoolingDown == false)
-        {
-            isCoolingDown = true;
-            cannonIcon.fillAmount = Mathf.Lerp(0, 1, 1);
-           
-        }
-        if (isCoolingDown)
-        {
-            cannonIcon.fillAmount -= 1 / coolDown * Time.deltaTime;
-            if (cannonIcon.fillAmount <= 0)
-            {
-                cannonIcon.fillAmount = 0;
-                isCoolingDown = false;
-            }
-        }
-    } */
+    public void ShowTripleShotTimer()
+    {
+        //set visual to active
+        //reset time to 0
+        //set fill amount to the time remaining
+        //deactivate visual when done
+    }
 }

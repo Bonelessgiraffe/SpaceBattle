@@ -79,6 +79,7 @@ public class Enemy : MonoBehaviour
     private void FireLaser()
     {
         Instantiate(laserPrefab, cannonTransform.position, Quaternion.identity);
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)

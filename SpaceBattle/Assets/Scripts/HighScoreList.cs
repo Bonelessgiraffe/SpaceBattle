@@ -43,13 +43,13 @@ public class HighScoreList : MonoBehaviour
 
     public void CheckIfCanAddNewHighScore(HighScoreElement element)
     {
-        Debug.LogError("Check High score called " + element.points + element.playerName);
+        //Debug.LogError("Check High score called " + element.points + element.playerName);
         for ( int i = 0; i < maxCount; i++)
         {
-            Debug.Log(i);
+            
             if (i >= highScoreElementList.Count ||element.points > highScoreElementList[i].points)
             {
-                Debug.LogError("Can Add");
+                //Debug.LogError("Can Add");
                 highScoreElementList.Insert(i, element);
                 //inserts element at i and moves everything down one space
                 while (highScoreElementList.Count > maxCount)

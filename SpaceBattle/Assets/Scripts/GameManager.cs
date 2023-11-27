@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     //[SerializeField] private GameObject newHighScorePanel;q
 
     public bool gameOver;
+    public bool highscoreUploaded = false;
 
     private int savedHighScore;
 
@@ -40,7 +41,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameOver == true)
+        if (gameOver == true && highscoreUploaded == false)
         {
             LaunchGameOverPanel();
         }
@@ -78,12 +79,17 @@ public class GameManager : MonoBehaviour
     {              
         HIghScorePanelUI.instance.UpdateUI(HighScoreList.instance.highScoreElementList);
         highScorePanel.gameObject.SetActive(true);
+
+      
     }
     public void HighScoreContinue()
     {
+        highscoreUploaded = true;
+        CloseGameOverPanels();
+
         SavePlayerName();
         HighScoreList.instance.CheckIfCanAddNewHighScore(new HighScoreElement(pName, totalScore));
-        HighScoreList.instance.SaveHighScores();
+        //HighScoreList.instance.SaveHighScores();
         StartCoroutine(LoadingHighScoreTableRoutine());
     }
     IEnumerator LoadingHighScoreTableRoutine()
@@ -100,6 +106,13 @@ public class GameManager : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void CloseGameOverPanels()
+    {
+        Debug.Log("Close panels called");
+        UIManager.instance.gameOverPanel.SetActive(false);
+        UIManager.instance.newHighScorePanel.SetActive(false);
     }
 
 

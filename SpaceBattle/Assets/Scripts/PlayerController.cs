@@ -67,8 +67,8 @@ public class PlayerController : MonoBehaviour
         {
             FireLasers();           
         }
-        cannonCoolDown += Time.deltaTime;
-        laserIcon.fillAmount = cannonCoolDown;
+        cannonCoolDown += Time.deltaTime; 
+       // laserIcon.fillAmount = cannonCoolDown; //
     }
     void CalculatePlayerMovement()
     {
@@ -103,7 +103,9 @@ public class PlayerController : MonoBehaviour
 
     private void FireLasers()
     {
-        laserIcon.fillAmount = 0;
+        // laserIcon.fillAmount = 0;//    
+        Debug.Log("FireLaser called");
+
 
         if (cannonCoolDown > timeBetweenCannonFire)
         {
@@ -123,6 +125,7 @@ public class PlayerController : MonoBehaviour
             }
             
             cannonCoolDown = 0;
+            UIManager.instance.coolDownTimer = cannonCoolDown;
             
         }
         else
