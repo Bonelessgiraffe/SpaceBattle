@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private int totalScore;
     [SerializeField] private GameObject highScorePanel;
+    [SerializeField] private GameObject pauseMenu;
+
     //[SerializeField] private GameObject newHighScorePanel;q
 
     public bool gameOver;
@@ -35,6 +37,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         gameOver = false;
+        pauseMenu.gameObject.SetActive(false);
         
     }
 
@@ -44,6 +47,15 @@ public class GameManager : MonoBehaviour
         if (gameOver == true && highscoreUploaded == false)
         {
             LaunchGameOverPanel();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape) && Time.timeScale == 1)
+        {
+            OpenPauseMenu();
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && Time.timeScale == 0)
+        {
+            ClosePauseMenu();
         }
     }
 
@@ -115,6 +127,17 @@ public class GameManager : MonoBehaviour
         UIManager.instance.newHighScorePanel.SetActive(false);
     }
 
+    private void OpenPauseMenu()
+    {
+        Time.timeScale = 0;
+        pauseMenu.gameObject.SetActive(true);
+    }
+
+    public void ClosePauseMenu()
+    {
+        Time.timeScale = 1;
+        pauseMenu.gameObject.SetActive(false);
+    }
 
     [System.Serializable]
     class SaveData

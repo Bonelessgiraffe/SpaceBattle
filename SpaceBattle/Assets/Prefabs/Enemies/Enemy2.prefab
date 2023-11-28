@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
-  health: 3
+  health: 2
   laserPrefab: {fileID: 33266968995107066, guid: 0ffb83c02dbea66458f9384e737ad4f4, type: 3}
   cannonTransform: {fileID: 3788723227833839681}
   scoreValue: 7
@@ -414,6 +414,14 @@ PrefabInstance:
     - target: {fileID: 4267372419685776, guid: 94daddc54f3285e44bf9b06fcd28a0ea, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212697059163626728, guid: 94daddc54f3285e44bf9b06fcd28a0ea, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212697059163626728, guid: 94daddc54f3285e44bf9b06fcd28a0ea, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -877546831
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

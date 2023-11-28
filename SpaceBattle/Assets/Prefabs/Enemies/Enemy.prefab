@@ -91,6 +91,7 @@ MonoBehaviour:
   - {fileID: 6192724089161036641, guid: e17d9a3f04750764c8c0a7a0461e4c3b, type: 3}
   - {fileID: 8038344524183138613, guid: 0277167a12290af47801444830a2be97, type: 3}
   canFire: 0
+  hasGuns: 0
   laserSound: {fileID: 4991151714194927163}
 --- !u!61 &3016757029416620704
 BoxCollider2D:
@@ -397,6 +398,14 @@ PrefabInstance:
     - target: {fileID: 4503217429184534, guid: 084d57ee81b2b814e8ef4386663aa943, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 212612138773060884, guid: 084d57ee81b2b814e8ef4386663aa943, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212612138773060884, guid: 084d57ee81b2b814e8ef4386663aa943, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -877546831
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
