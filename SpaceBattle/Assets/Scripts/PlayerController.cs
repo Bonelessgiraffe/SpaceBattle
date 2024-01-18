@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     public AudioSource powerUpSound;
 
     public bool tripleShotActive;
-    public float speedMultiplier = 2;
+    public float speedMultiplier = 1.5f;
 
     private bool isShieldActive = false;
     [SerializeField] private int lives;
@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
     public bool isCooling;
     private bool isDead;
 
-    [SerializeField] private GameObject PlayerDamageL, PlayerDamageR;
+    [SerializeField] private GameObject playerDamageL, playerDamageR, thrusters;
 
 
     public static PlayerController instance;
@@ -170,19 +170,20 @@ public class PlayerController : MonoBehaviour
             isDead = true;
             Destroy(this.gameObject, 2.5f);
             sprite.gameObject.SetActive(false);
-            PlayerDamageR.SetActive(false); 
-            PlayerDamageL.SetActive(false);
+            playerDamageR.SetActive(false); 
+            playerDamageL.SetActive(false);
+            thrusters.SetActive(false);
             Instantiate(explosion, transform.position, Quaternion.identity);
             StartCoroutine(DeathSequence());
            
         }
         if (lives == 2)
         {
-            PlayerDamageL.SetActive(true);
+            playerDamageL.SetActive(true);
         }
         if (lives == 1)
         {
-            PlayerDamageR.SetActive(true);
+            playerDamageR.SetActive(true);
         }
     }
 

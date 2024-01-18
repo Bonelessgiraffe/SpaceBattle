@@ -14,6 +14,8 @@ public class SpawnManager : MonoBehaviour
     public float spawnFrequency = 2;
     public static SpawnManager instance;
 
+    private float spawnFrequencyTimer = 0;
+
 
     private void Awake()
     {
@@ -34,10 +36,16 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if (Time.time > newRoundTime)
+        spawnFrequencyTimer += Time.deltaTime;
+
+        if (spawnFrequencyTimer > newRoundTime)
         {
-            spawnFrequency -= 0.3f;
+            spawnFrequency *= 0.9f;
             newRoundTime += 20f;
+        }
+        if (gameOver)
+        {
+            spawnFrequencyTimer = 0;
         }
     }
 

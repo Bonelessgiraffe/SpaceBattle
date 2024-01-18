@@ -85,7 +85,6 @@ public class Enemy : MonoBehaviour
    
     private void FireLaser()
     {
-        Debug.Log("ENEMY FIRELASER");
         Instantiate(laserPrefab, cannonTransform.position, Quaternion.identity);
         laserSound.Play();
 
